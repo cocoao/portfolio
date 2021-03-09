@@ -17,8 +17,29 @@
 </head>
 <body>
   <div class="wrap">
-    <div class="slideBox">
+    <div id="jsSlideshow">
+      <div class="slides clear">
+        <div class="slideBox" data-img="/na_pf/img/main_na.jpg">
+          <h2>Title</h2>
+          <img src="/na_pf/img/main_na.jpg" alt="">
+        </div>
+        <div class="slideBox" data-img="/na_pf/img/main_pu.jpg">
+          <h2>Title</h2>
+          <img src="/na_pf/img/main_pu.jpg" alt="">
+        </div>
+        <div class="slideBox" data-img="/na_pf/img/main_de.jpg">
+          <h2>Title</h2>
+          <img src="/na_pf/img/main_de.jpg" alt="">
+        </div>
+        <div class="slideBox" data-img="/na_pf/img/main_mo.jpg">
+          <h2>Title</h2>
+          <img src="/na_pf/img/main_mo.jpg" alt="">
+        </div>
+      </div>
     </div>
+    <span id="prev">PREV</span>
+    <span id="next">NEXT</span>
+
     <div class="txtBoxes">
       <div class="txtBox">
         <div class="contents clear">

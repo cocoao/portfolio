@@ -1,5 +1,8 @@
-.slideBox{width: 100vw; height: 65vh; background: #444;}
-
+.jsSlideshow{width: 100vw; height: 65vh; position: relative; overflow: hidden;}
+.slides{width: 2400vw; position: relative; top: 0; left: -60vw;}
+.slideBox{height: 100%; width: 60vw; float: left; display: flex; flex-direction: column; justify-content: center;}
+.slideBox img{width: 100%;}
+.transition{transition: .7s;}
 /* textbox style */
 .txtBoxes{width: 100vw; height: 35vh; display: flex;}
 .txtBoxes .txtBox{width: 80%; height: 100%; padding: 3px 50px; position: relative;}
