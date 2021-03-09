@@ -1,0 +1,20 @@
+.slideBox{width: 100vw; height: 65vh; background: #444;}
+
+/* textbox style */
+.txtBoxes{width: 100vw; height: 35vh; display: flex;}
+.txtBoxes .txtBox{width: 80%; height: 100%; padding: 3px 50px; position: relative;}
+.txtBoxes .txtBox .indexTxt{width: 25%; float: left; padding: 60px 60px 20px 0;}
+.txtBoxes .txtBox .indexTxt h3{font-size: 30px;}
+.txtBoxes .txtBox .indexTxt hr{width: 100%; border:0; border-bottom: 3px solid #333; margin: 5px 0;}
+.txtBoxes .txtBox .copy{bottom: 40px; position: absolute; font-size: 12px;}
+
+/* navigation style */
+.txtBoxes .nav{width: 20%; background: #222; height: 100%;}
+.txtBoxes .nav>ul{width: 100%; padding: 30px 50px; display: flex; justify-content: space-between; align-items: center; flex-direction: column;height: 100%;}
+.txtBoxes .nav li{width: 100%; position: relative; height: 20%; margin: 10px 0;}
+.txtBoxes .nav a{width: 100%; color: #fff; display: flex; justify-content: space-between; align-items: center;}
+.txtBoxes .nav i{font-size: 20px; transition: all 0.6s;}
+.txtBoxes .nav hr{width: 0; position: absolute; bottom: 0; left: 0; transition: all 0.6s;}
+.txtBoxes .nav .hover{opacity: 0;transition: all 0.6s;}
+.txtBoxes .nav li:hover .hover{opacity: 1;}
+.txtBoxes .nav li:hover hr{width: 100%;}
