@@ -20,14 +20,14 @@ $(function(){
       $(".slide:last-child").removeClass('active');
 
       className = $('.slide.active').attr('value');
-      $('.contents').hide();
-      $('.contents.' + className).show();
+      $('.contents').css({'display':'none'});
+      $('.contents.' + className).css({'display':'flex'});
     }, 500)
   }
 
   function moveSlideRe(){
     $(".slide:last-child").animate({'width':'0','left':'100%'},700);
-    $(".slide:nth-child(2)").addClass('active');
+    $(".slide:last-child").addClass('active');
     $(".slide:first-child i").animate({'opacity':'0'},300);
     $(".slide:nth-child(4)").animate({'width': '60%', 'left':0}, 500);
     $(".slide:nth-child(1)").animate({'width': '20%', 'left':'60%'}, 500);
@@ -45,19 +45,19 @@ $(function(){
       $(".slide:nth-child(3)").css('width', '10%');
       $(".slide:nth-child(4)").css('width', '10%');
       $(".slide:nth-child(4)").css('left','90%');
-      $(".slide:last-child").removeClass('active');
+      $(".slide:nth-child(2)").removeClass('active');
 
       className = $('.slide.active').attr('value');
-      $('.contents').hide();
-      $('.contents.' + className).show();
+      $('.contents').css({'display':'none'});
+      $('.contents.' + className).css({'display':'flex'});
     }, 500)
   }
 
-  // $(function(){
-	// setInterval(function () {
-  //   moveSlide()
-	// }, 5000);
-  // });
+  $(function(){
+	setInterval(function () {
+    moveSlide()
+	}, 5000);
+  });
 
   $(".next").click(function(){
     moveSlide();
@@ -65,4 +65,44 @@ $(function(){
   $(".prev").click(function(){
     moveSlideRe();
   });
+});
+
+$(function(){
+$('.skillSection .roundBox').on('mouseenter',function(){
+ const percent = $(this).find('.percentTxt').text();
+ $(this).find('.icon').css({'display':'none'})
+ $('.skillSection .roundBox .hover .percentBg').animate({'width': percent,'opacity':'1'},function(){
+  $('.skillSection .roundBox .percentTxt').show();
+ });
+
+$('.skillSection .roundBox').on('mouseleave',function(){
+  $('.skillSection .roundBox .hover .percentBg').animate({'width': 0,'opacity':0});
+  $('.skillSection .roundBox .percentTxt').hide();
+  $('.skillSection .roundBox .icon').css({'display':'flex'})
+ });
+});
+
+var winWidth = $(window).width();
+$('.ab_content_in .text').css({'height':winWidth * 0.22})
+$('.ab_content_in .img img').css({'top':winWidth * 0.22});
+
+$(window).resize(function(){
+  var winWidth = $(window).width();
+  $('.ab_content_in .text').css({'height':winWidth * 0.225});
+  $('.ab_content_in .img img').css({'top':winWidth * 0.22});
+});
+
+$(".mobileNav").click(function(){
+  $(this).toggleClass("on");
+  if($(this).hasClass("on")){
+    $(this).find("i").attr("class","fa fa-times");
+    $(this).next("ul").slideDown("fast");
+  
+  } else {
+    $(this).find("i").attr("class","fa fa-bars");
+    $(this).next("ul").slideUp("fast");
+
+  }
+});
+  
 });

@@ -130,6 +130,8 @@
             <hr>
             <h3>ETC.</h3>
           </div>
+          <div class="indexTxt">
+          </div>
         </div>
         <div class="copy">
           <p>COPYRIGHTⓒ 2021 BY NA</p>
@@ -139,7 +141,15 @@
           <button class="next">></button>
         </div>
       </div>
+      <div class="nameBox">
+        <h3><p>NA </p>HYE JEONG</h3>
+        <p>PORTFOLIO</p>
+        <hr>
+      </div>
       <div class="nav">
+        <div class="mobileNav">
+          <i class="fa fa-bars"></i>
+        </div>
         <ul>
         <li><a href="#">
             <p>MAIN</p>

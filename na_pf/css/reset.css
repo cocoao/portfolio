@@ -15,4 +15,4 @@ input:focus, textarea:focus{background: #eee;}
 
 /* Contents wrap style */
 .main-wrap{width: 100vw; height: 100vh; display: flex; justify-content:space-between; align-items: center; flex-direction: column; overflow: hidden;}
-.wrap{width: 100vw; height: auto; display: flex; justify-content:space-between; align-items: center; flex-direction: column; overflow: hidden;}
+.wrap{width: 100vw; height: auto; display: flex; justify-content:space-between; align-items: center; flex-direction: column; overflow: hidden; }

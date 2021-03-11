@@ -1,10 +1,13 @@
-<div class="navBox">
+<div class="navBox subNav">
   <div class="nameBox">
-    <h3><p>NA</p>HYE JEONG</h3>
+    <h3><p>NA </p>HYE JEONG</h3>
     <p>PORTFOLIO</p>
     <hr>
   </div>
   <div class="nav">
+    <div class="mobileNav">
+      <i class="fa fa-bars"></i>
+    </div>
     <ul>
       <li><a href="/na_pf/index.php">
         <p>MAIN</p>
@@ -42,3 +45,6 @@
     <p>COPYRIGHTⓒ 2021 BY NA</p>
   </div>
 </div>
+<!-- <div class="copyOut">
+  <p>COPYRIGHTⓒ 2021 BY NA</p>
+</div> -->

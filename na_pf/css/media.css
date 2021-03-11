@@ -1,16 +1,31 @@
 @media screen and (max-width : 1200px){
+  /* main page */
   .txtBoxes .txtBox .indexTxt h3{font-size: 22px;}
   .txtBoxes .txtBox .indexTxt h3 p{font-size: 22px;}
   .txtBoxes .txtBox .indexTxt p{font-size: 12px;}
   .txtBoxes .nav>ul{padding: 30px 40px;}
+
+  /* about page */
+  .navBox .nameBox h3,.navBox .nameBox h3 p{font-size: 24px;}
+  .navBox .nameBox p{font-size: 20px;}
+  .navBox .copy{font-size: 10px;}
+
+  .ab_content_in .img img{width: 125%; margin-top: 3%;}
+  section{margin: 100px 60px 0;}
+  .ab_skill{width: 30%;}
+  .histTxt .dot{margin: 0 15px;}
+  .skillSection .roundBox{width: 100%;}
 }
 
 @media screen and (max-width : 950px){
+  /* main page */
   .slides,.slides .slide-box,.slides .slide-box .slide{height: 55vh;}
   .slides .slide span{padding: 30px; font-size: 30px;}
   .txtBoxes{height: 45vh;}
-  .txtBoxes .txtBox{padding: 3px 30px;}
-  .txtBoxes .txtBox .indexTxt{padding: 60px 40px 20px 0; width: 50%;}
+  .txtBoxes .txtBox{padding: 0 30px;}
+  .txtBoxes .txtBox .indexTxt{padding: 60px 0 0 0; width: 47%;}
+  .txtBoxes .txtBox .indexTxt:nth-child(odd){margin-right: 5%;}
+  .txtBoxes .txtBox .contents{flex-wrap: wrap; justify-content:space-around;}
   .txtBoxes .txtBox .indexTxt h3,.txtBoxes .txtBox .indexTxt h3 p{display: inline;}
   .txtBoxes .txtBox .indexTxt hr{border-bottom: 2px solid #333;}
   .txtBoxes .nav>ul{padding: 30px;}
@@ -18,14 +33,130 @@
   .txtBoxes .nav li{margin: 20px 0;}
   .txtBoxes .nav li i{font-size: 15px;}
   .txtBoxes .nav hr{border: 0; border-bottom: 1px solid #fff;}
+  .btns{right: 10px; bottom: 30px;}
+  .btns button{width: 30px; height: 30px; font-size: 28px;}
+  
+  /* about page */
+  .navBox{padding: 30px 15px;}
+  .navBox .nameBox p{font-size: 16px;}
+  .navBox .nav a p{font-size: 14px;}
+
+  .ab_content_in .img img{width: 135%; margin-top: 10%;}
+  .ab_content_in .text{padding-top: 15%;}
+  .ab_content_in .text h3{font-size: 30px; margin: 0; padding: 0;}
+  .ab_content_in .text p{font-size: 12px; padding-bottom: 10px;}
+
+  .ab_history{width: 80%; margin-right:0}
+  .ab_skill{width: 80%; float: left; margin-left: 60px;}
+  .ab_content_sk{width: 60%; left: 50%; transform: translateX(-50%);}
+  .ab_contact{width: 80%;}
 }
 
 @media screen and (max-width : 750px){
+  /* main page */
   .txtBoxes .nav>ul{padding: 30px 15px;}
-  .txtBoxes .nav>ul p{text-align: center;}
-  .txtBoxes .nav a{justify-content: center; color: #fff;}
-  .txtBoxes .nav li:hover{border-bottom: 1px solid #fff; transition: all 0.4s;}
+  .nav>ul p{text-align: center;}
+  .nav a{justify-content: center; color: #fff;}
+  .nav li:hover{border-bottom: 1px solid #fff; transition: all 0.4s;}
+  .nav .hover{display: none;}
+  .slides .slide span{padding: 20px; font-size: 28px;}
+  .txtBoxes .txtBox{padding: 3px 20px;}
 
-  .txtBoxes .nav .hover{display: none;}
-  .btns button{width: 30px; height: 30px; font-size: 28px;}
+  /* about page */
+  .navBox{padding: 30px 10px;}
+  .navBox .nameBox h3, .navBox .nameBox h3 p{font-size: 18px;}
+  .navBox .nameBox p{font-size: 14px;}
+  .navBox .nav li{margin: 15px 0;}
+  .navBox .nav a{display: block;}
+  .navBox .nav a p{font-size: 12px;}
+
+  section{margin: 35px 60px 0;}
+  .ab_content_in .img,.ab_intro{height: 60vh;}
+  .ab_content_in .img img{width: 150%; margin-top: 15%;}
+  .ab_content_in .text{padding-top: 40%; width: 85%;}
+  .ab_content_in .text h3{font-size: 30px;}
+  .ab_content_in .text p{font-size: 12px; padding-bottom: 8px;}
+
+  .contactBox form input{width: 100%; margin-bottom: 5px;}
+  .contactBox form textarea{margin: 0 0 5px 0;}
+}
+
+@media screen and (max-width : 600px){
+  .ab_content_in .img,.ab_intro{height: 45vh;}
+  .ab_content_in .img img{width: 150%; margin-top: 15%;}
+  .ab_content_in .text{padding-top: 35%; width: 85%;}
+  .ab_content_in .text h3{font-size: 20px;}
+  .ab_content_in .text p{font-size: 10px; padding-bottom: 8px;}
+
+  .histTxt span{font-size: 12px;}
+  .histTxt .histName{font-size: 14px;}
+  .histTxt .histName p{font-size: 12px;}
+  .histTxt .dot{width: 3%;}
+
+  .ab_skill{margin-top: 70px;}
+  .ab_content_sk{transform: translateX(-60%);}
+
+  .ab_contact{padding-top: 60px;}
+  .contacBtns a{width: 35px; height: 35px;}
+  .contacBtns a:nth-child(1) i{font-size: 30px;}
+  .contacBtns i{font-size: 18px;}
+  .contacBtns a:nth-child(3) i{font-size: 20px;}
+
+  section{margin: 35px 40px 0;}
+}
+
+@media screen and (max-width : 480px){
+  /* main page */
+  .slides, .slides .slide-box, .slides .slide-box .slide{height: 40vh;}
+  .slides{top: 50px;}
+  .slides .slide span{padding: 20px; font-size: 16px; display: none;}
+  .slides .slide.active span{display: flex;}
+  .slides .slide i{padding: 15px 20px; font-size: 25px;}
+  
+  .txtBoxes .nav{width: 100%; height: 50px; position: fixed; top: 0; background: #333; z-index: 100;}
+  .txtBoxes .nav>ul{flex-direction: row; padding: 5px; align-items: center; display: none;}
+  .txtBoxes .nav>ul p{font-size: 11px; display: flex; align-items: center; height: 30px;}
+  .txtBoxes .nav li{height: 100%; display: flex;}
+  .txtBoxes .nav>ul{width: 100%; position: absolute; background: #333; height: auto; margin-top: 50px; display: none; z-index: -100;}
+  .txtBoxes .nav li{padding: 0; margin: 0; height: 55px;}
+  .txtBoxes .nav a{display: flex; justify-content: center; border-top: 1px solid #aaa;}
+  .txtBoxes .nav a p{color: #fff; font-size: 14px;}
+  .txtBoxes .nameBox h3, .navBox .nameBox h3 p{color: #fff; display: inline;}
+  .txtBoxes .nameBox hr{display: none;}
+  .txtBoxes .nav li:hover{background: #111;}
+  .nameBox{position: fixed; top: 0; left: 0; z-index: 200; height: 50px; display: flex; align-items: center; padding: 0 20px;}
+  .nameBox h3{color: #fff;}
+  .nameBox h3 p{display: inline;}
+  .nameBox>p{display: none;}
+
+  .txtBoxes{height: 50vh;}
+  .txtBoxes .txtBox{width: 100%;}
+  .txtBoxes .txtBox .indexTxt{padding: 15px 0 0 0; width: 100%;}
+  .txtBoxes .txtBox .indexTxt:nth-child(1){margin-top: 20px;}
+  .txtBoxes .txtBox .indexTxt:nth-child(odd){margin-right: 0; }
+  .txtBoxes .txtBox .indexTxt h3,.txtBoxes .txtBox .indexTxt h3 p{font-size: 16px;font-weight: 500;}
+  .txtBoxes .txtBox .indexTxt p{font-size: 10px;}
+  .txtBoxes .txtBox .indexTxt hr{border-bottom: 1px solid #333; margin: 6px 0 0 0;}
+
+  .btns{right:5px; top: 0;}
+  .btns button{height: 25px; font-size: 20px; width: 25px;}
+  .txtBoxes .txtBox .copy{position: fixed; bottom: 0; left: 0px; border-top: 1px solid #ddd; text-align: center; padding: 10px 0; width: 100%;}
+
+  /* about page */
+  .contents-wrap{width: 85%; margin: 0;}
+  .navBox{width: 100%; border: 0; left: 0; padding: 0; z-index: 100;}
+  .navBox .nameBox{position: fixed; width: 100%; top: 0; height: 50px; display: flex; align-items: center; background: #333; left: 0; padding: 0 20px;_z-index: 200;}
+  .navBox .nav>ul{width: 100%; position: absolute; background: #333; height: auto; margin-top: 50px; display: none; z-index: -100;}
+  .navBox .nav li{padding: 0; margin: 0; height: 55px; display: flex;}
+  .navBox .nav a{display: flex; justify-content: center; border-top: 1px solid #aaa;}
+  .navBox .nav a p{color: #fff; font-size: 14px;}
+  .navBox .nameBox h3, .navBox .nameBox h3 p{color: #fff; display: inline;}
+  .navBox .nameBox hr{display: none;}
+  .navBox .nav li:hover{background: #111;}
+  .mobileNav{display: block;}
+
+  .navBox .copy{display: none;}
+  /* .copyOut{position: absolute; bottom: 0; left: 0px; border-top: 1px solid #ddd; text-align: center; padding: 10px 0; width: 100%; display: block;} */
+
+  section{margin: 100px 10px 0;}
 }
