@@ -1,0 +1,31 @@
+@media screen and (max-width : 1200px){
+  .txtBoxes .txtBox .indexTxt h3{font-size: 22px;}
+  .txtBoxes .txtBox .indexTxt h3 p{font-size: 22px;}
+  .txtBoxes .txtBox .indexTxt p{font-size: 12px;}
+  .txtBoxes .nav>ul{padding: 30px 40px;}
+}
+
+@media screen and (max-width : 950px){
+  .slides,.slides .slide-box,.slides .slide-box .slide{height: 55vh;}
+  .slides .slide span{padding: 30px; font-size: 30px;}
+  .txtBoxes{height: 45vh;}
+  .txtBoxes .txtBox{padding: 3px 30px;}
+  .txtBoxes .txtBox .indexTxt{padding: 60px 40px 20px 0; width: 50%;}
+  .txtBoxes .txtBox .indexTxt h3,.txtBoxes .txtBox .indexTxt h3 p{display: inline;}
+  .txtBoxes .txtBox .indexTxt hr{border-bottom: 2px solid #333;}
+  .txtBoxes .nav>ul{padding: 30px;}
+  .txtBoxes .nav>ul p{font-size: 12px;}
+  .txtBoxes .nav li{margin: 20px 0;}
+  .txtBoxes .nav li i{font-size: 15px;}
+  .txtBoxes .nav hr{border: 0; border-bottom: 1px solid #fff;}
+}
+
+@media screen and (max-width : 750px){
+  .txtBoxes .nav>ul{padding: 30px 15px;}
+  .txtBoxes .nav>ul p{text-align: center;}
+  .txtBoxes .nav a{justify-content: center; color: #fff;}
+  .txtBoxes .nav li:hover{border-bottom: 1px solid #fff; transition: all 0.4s;}
+
+  .txtBoxes .nav .hover{display: none;}
+  .btns button{width: 30px; height: 30px; font-size: 28px;}
+}

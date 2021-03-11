@@ -14,4 +14,5 @@ input::placeholder, textarea::placeholder{color: #555;}
 input:focus, textarea:focus{background: #eee;}
 
 /* Contents wrap style */
-.wrap{width: 100vw; height: 100vh; display: flex; justify-content:space-between; align-items: center; flex-direction: column; overflow: hidden;}
+.main-wrap{width: 100vw; height: 100vh; display: flex; justify-content:space-between; align-items: center; flex-direction: column; overflow: hidden;}
+.wrap{width: 100vw; height: auto; display: flex; justify-content:space-between; align-items: center; flex-direction: column; overflow: hidden;}

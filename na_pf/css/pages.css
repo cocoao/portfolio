@@ -1,0 +1,37 @@
+.navBox{width: 20%; height: 100%; position: fixed; border-right: 1px dotted #333; left: 0; top: 0;  padding: 40px;}
+.navBox .nameBox{width: 100%; padding-bottom: 30px;}
+.navBox .nameBox h3{font-size: 28px;}
+.navBox .nameBox p{font-size: 24px;}
+.navBox .nameBox hr{border:0; border-bottom: 3px solid #333; margin-top: 10px;}
+.navBox .nav>ul{width: 100%;display: flex; justify-content: space-between; align-items: center; flex-direction: column;height: 100%;}
+.navBox .nav li{width: 100%; position: relative; height: 20%; margin: 10px 0;}
+.navBox .nav a{width: 100%; color: #333; display: flex; justify-content: space-between; align-items: center;}
+.navBox .nav i{font-size: 20px; transition: all 0.6s;}
+.navBox .nav hr{width: 0; position: absolute; border:0; border-bottom: 1px solid #333; bottom: 0; left: 0; transition: all 0.6s;}
+.navBox .nav .hover{opacity: 0;transition: all 0.6s;}
+.navBox .nav li:hover .hover,.navBox .nav li.active .hover{opacity: 1;}
+.navBox .nav li:hover hr,.navBox .nav li.active hr{width: 100%;}
+.navBox .copy{bottom:40px; position: absolute; font-size: 12px; width: 100%; text-align: center;left: 0;}
+.navBox .copy p{text-align: center; }
+
+.contents-wrap{width: 80%; margin-left: 20%; position: relative;;}
+section{margin: 100px 80px 0;}
+.title{width: auto; height: auto; position: relative;padding: 0 15px;}
+.title hr{width: 1px; height: 80%; border: 0; border-left: 2px solid #333; position: absolute; top: 50%; left: 0; transform: translateY(-50%);}
+.title p{font-size: 14px;}
+.title h3{font-size: 24px;}
+
+.ab_intro{height: 68vh;}
+.ab_content_in{width: 100%; height: auto;}
+.ab_content_in .img{position: relative; left: 0; top: 0; position: absolute; z-index: -1; height: 80vh; overflow: hidden;}
+.ab_content_in .img img{width: 100%; top: 0;}
+.ab_content_in .text{width: 50%; display: flex; flex-direction: column; margin: auto; height: 40vh; position: relative;}
+.ab_content_in .text h3{padding: 45px 10px; font-size: 40px; font-weight: 100; }
+.ab_content_in .text span{position: absolute; bottom: 0; right: 0; padding: 25px 0;}
+.ab_content_in .text p{font-weight: 300; padding-bottom: 15px;}
+
+.ab_history{width: 45%; float: left; margin-right: 4%;}
+.ab_content_hi{width: 100%; height: auto;}
+
+
+.ab_skill{width: 35%; float: right; margin-left: 0;}

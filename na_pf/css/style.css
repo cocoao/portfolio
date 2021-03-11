@@ -1,15 +1,36 @@
-.jsSlideshow{width: 100vw; height: 65vh; position: relative; overflow: hidden;}
-.slides{width: 2400vw; position: relative; top: 0; left: -60vw;}
-.slideBox{height: 100%; width: 60vw; float: left; display: flex; flex-direction: column; justify-content: center;}
-.slideBox img{width: 100%;}
-.transition{transition: .7s;}
+.slides{width:100%;height:65vh;position:relative;overflow:hidden;background: #ddd;}
+.slides .slide-box{position:relative; left:0; top:0; width:100%; height:65vh; overflow:hidden;}
+.slides .slide-box .slide{overflow:hidden; text-overflow: ellipsis; white-space:nowrap; float:left; position:absolute; top:0; height: 65vh; }
+
+.slides .slide:nth-child(1){width:60%; left:0;}
+.slides .slide:nth-child(2){width:20%; left:60%;}
+.slides .slide:nth-child(3){width:10%; left:80%;}
+.slides .slide:nth-child(4){width:10%; left:90%;}
+/* .slides .slide:last-child{animation:slideLeft 0.1s 1} */
+.slides .slide img{position: absolute; left: 50%; top: 0; transform: translateX(-50%);height: 100%; }
+
+.slides .slide span{position: absolute; bottom: 0; padding: 30px 50px; width: 100%; font-size: 40px; color: #333;display: flex;}
+.slides .slide i{position: absolute; top: 0; right: 0; padding: 30px; display: none; color: #333; font-size: 40px; z-index: 10; font-weight: 400; animation: slideTxtin 0.2s 1; }
+.slides .slide span p{opacity: 0;}
+.slides .slide:nth-child(1) span p{width: 50%; opacity: 1; animation: slideTxtin 0.2s 1;}
+.slides .slide:nth-child(1) i{display: block;}
+
+.btns{position: absolute; bottom: 40px; right: 60px;;}
+.btns button{outline: 0; _padding: 10px; border: 1px solid #ddd; color: #ddd; font-size: 35px; transform: all 0.4s; width: 40px; height: 40px;}
+.btns button:hover{background: #ddd; color: #fff;}
+
 /* textbox style */
 .txtBoxes{width: 100vw; height: 35vh; display: flex;}
 .txtBoxes .txtBox{width: 80%; height: 100%; padding: 3px 50px; position: relative;}
+.txtBoxes .txtBox .contents{position: relative; top:0; animation: slideUp 0.7s 1; animation-fill-mode: forwards;}
 .txtBoxes .txtBox .indexTxt{width: 25%; float: left; padding: 60px 60px 20px 0;}
-.txtBoxes .txtBox .indexTxt h3{font-size: 30px;}
+.txtBoxes .txtBox .indexTxt h3{font-size: 26px; text-overflow: ellipsis;}
+.txtBoxes .txtBox .indexTxt h3 p{font-size: 26px; text-overflow: ellipsis;}
 .txtBoxes .txtBox .indexTxt hr{width: 100%; border:0; border-bottom: 3px solid #333; margin: 5px 0;}
+.txtBoxes .txtBox .indexTxt p{font-size: 14px; text-transform: uppercase;}
 .txtBoxes .txtBox .copy{bottom: 40px; position: absolute; font-size: 12px;}
+.contents{display: none;}
+.contents.main-na{display: block;}
 
 /* navigation style */
 .txtBoxes .nav{width: 20%; background: #222; height: 100%;}
