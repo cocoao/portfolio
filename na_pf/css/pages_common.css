@@ -1,0 +1,28 @@
+/* navigation style */
+.navBox{width: 20%; height: 100%; position: fixed; border-right: 1px dotted #333; left: 0; top: 0;  padding: 40px;z-index: 10;}
+.navBox .nameBox{width: 100%; padding-bottom: 30px;}
+.navBox .nameBox h3{font-size: 28px;}
+.navBox .nameBox p{font-size: 28px;}
+.navBox .nameBox hr{border:0; border-bottom: 3px solid #333; margin-top: 10px;}
+.navBox .nav>ul{width: 100%;display: flex; justify-content: space-between; align-items: center; flex-direction: column;height: 100%;}
+.navBox .nav li{width: 100%; position: relative; height: 20%; margin: 10px 0;}
+.navBox .nav a{width: 100%; color: #333; display: flex; justify-content: space-between; align-items: center;}
+.navBox .nav i{font-size: 20px; transition: all 0.6s;}
+.navBox .nav hr{width: 0; position: absolute; border:0; border-bottom: 1px solid #333; bottom: 0; left: 0; transition: all 0.6s;}
+.navBox .nav .hover{opacity: 0;transition: all 0.6s;}
+.navBox .nav li:hover .hover,.navBox .nav li.active .hover{opacity: 1;}
+.navBox .nav li:hover hr,.navBox .nav li.active hr{width: 100%;}
+.navBox .copy,.copyOut{bottom:40px; position: absolute; font-size: 12px; width: 100%; text-align: center;left: 0;}
+.navBox .copy p,.copyOut p{text-align: center; }
+.copyOut{display: none;}
+
+.mobileNav{position: fixed; right: 0; padding: 15px; display: none; z-index: 999;}
+.mobileNav i{font-size: 24px; color: #fff;}
+
+/* common style */
+.contents-wrap{width: 80%; margin-left: 20%; position: relative;}
+section{padding: 100px 80px 0;}
+.title{width: auto; height: auto; position: relative;padding: 0 15px; margin-bottom: 50px;}
+.title hr{width: 1px; height: 80%; border: 0; border-left: 2px solid #333; position: absolute; top: 50%; left: 0; transform: translateY(-50%);}
+.title p{font-size: 14px; font-weight: 300;}
+.title h3{font-size: 24px;}

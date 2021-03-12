@@ -1,0 +1,56 @@
+/* dbProject style */
+.dbBg{width: 100%; height: 100vh; background: #d4bfa2; position: relative;}
+.pu_dbProject,.pu_apiProject,.pu_renProject,.pu_pieProject,.pu_planProject{display: flex; justify-content: space-between; flex-direction: row;}
+.leftTxtBox{width: 28%;position: relative;}
+.useBox{width: fit-content; background: #fff; border-radius: 50px; display: flex; flex-direction: row; padding: 5px; margin: 10px 0;}
+.useBox .icon{width: 30px; height:30px; background: #333; border-radius: 50%; margin-left: 5px; display: flex; justify-content: center; align-items: center;}
+.useBox .icon:first-child{margin-left:0;}
+.useBox .icon img{width: 80%; transition: all 0.4s;}
+.useBox .icon:hover img{width: 100%;}
+.useBox .useLine{height: 30px; width: 1px; background:  #d4bfa2; margin-left: 5px;}
+.pfBtns{width: 100%; display: flex; justify-content: space-around; align-items: center; position: absolute; bottom: 10px; padding-bottom: 100px;}
+.pfBtns a{width: 30%; _background: #333; color: #333; height:40px; border-radius: 5px; display: flex; justify-content: center; align-items: center; border: 1px solid #333; text-transform: uppercase; font-size: 12px; font-weight: 500; transition: all 0.4s;}
+.leftTxtBox .pfBtns{bottom: 70px;}
+.pfBtns a:hover{background: #333; color: #fff; font-size: 14px;}
+.desc p{padding-bottom: 5px; text-transform: uppercase;}
+
+/* image box style */
+.frame{padding-bottom: 100px;}
+.frame img{width: 100%;z-index: 1;}
+.imgBox{overflow: hidden; position: absolute;}
+.imgBox img{width: 100%; top: 0; position: absolute;}
+
+.rightImgBox{width: 68%; display: flex; justify-content: center; align-items: center; position: relative;}
+.rightImgBox .frame{width: 90%; _margin-left: 5%; display: flex; justify-content: center;}
+.rightImgBox .imgBox{width: 83%; height: 54%; margin: 3.3%; top: 0;}
+
+.leftImgBox{width: 68%; display: flex; justify-content: center; align-items: center; position: relative;}
+.leftImgBox .frame{width: 90%; _margin-left: 5%; display: flex; justify-content: center;}
+.leftImgBox .imgBox{width: 70%; height: 63.5%; margin: 3% 1%; top: 0; display: flex; justify-content: center;align-items: center; overflow: hidden;}
+.leftImgBox .imgBox img{height: 100%; width: auto;}
+
+.planBg .rightImgBox{width: 68%; display: flex; justify-content: center; align-items: center; position: relative;}
+.planBg .rightImgBox .frame{width: 90%; _margin-left: 5%; display: flex; justify-content: center;}
+.planBg .rightImgBox .imgBox{width: 70%; height: 63%; margin: 3% 1%; top: 0;}
+.planBg .rightImgBox .imgBox img{width: 100%;}
+
+/* apiProject style */
+.apiBg{width: 100%; height: 100vh; background: #c92e2b; position: relative;}
+.rightTxtBox{width: 28%;position: relative; margin-right: 40px;}
+.apiBg .useBox .useLine{background: #c92e2b; }
+
+/* renProject style */
+.renBg{width: 100%; height: 100vh; background: #fffaf0; position: relative;}
+.renBg .useBox{background: #ecdfca;}
+.renBg .useBox .useLine{background: #333;}
+
+/* pieProject style */
+.pieBg{width: 100%; height: 100vh; background: #ffe138; position: relative;}
+.leftImgM{width: 10%;position: absolute; bottom: 50px; z-index: 10; display: flex; justify-content: center;}
+.leftImgM .frame_mobile{width: 100%; z-index: 5;}
+.leftImgM .frame_mobile img{width: 100%;}
+.leftImgM .imgBox{overflow: hidden; position: absolute; border-radius: 13px; margin: 5% 6.5%; height: 94.5%; width: 88%;}
+
+/* pieProject style */
+.planBg{width: 100%; height: 100vh; background: #dddddb; position: relative;}
+.planBg .useBox .useLine{background: #dddddb;}

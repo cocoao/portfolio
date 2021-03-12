@@ -21,7 +21,7 @@
           <i class="fa fa-angle-double-right"></i><hr>
         </span>
       </a></li>
-      <li><a href="#">
+      <li><a href="/na_pf/pages/publishing.php">
         <p>PUBLISHING</p>
         <span class="hover">
           <i class="fa fa-angle-double-right"></i><hr>
@@ -45,6 +45,3 @@
     <p>COPYRIGHTⓒ 2021 BY NA</p>
   </div>
 </div>
-<!-- <div class="copyOut">
-  <p>COPYRIGHTⓒ 2021 BY NA</p>
-</div> -->

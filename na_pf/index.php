@@ -141,7 +141,7 @@
           <button class="next">></button>
         </div>
       </div>
-      <div class="nameBox">
+      <div class="nameBox mainNam">
         <h3><p>NA </p>HYE JEONG</h3>
         <p>PORTFOLIO</p>
         <hr>
@@ -151,7 +151,7 @@
           <i class="fa fa-bars"></i>
         </div>
         <ul>
-        <li><a href="#">
+          <li><a href="/na_pf/index.php">
             <p>MAIN</p>
             <span class="hover">
               <i class="fa fa-angle-double-right"></i><hr>
@@ -163,7 +163,7 @@
               <i class="fa fa-angle-double-right"></i><hr>
             </span>
           </a></li>
-          <li><a href="#">
+          <li><a href="/na_pf/pages/publishing.php">
             <p>PUBLISHING</p>
             <span class="hover">
               <i class="fa fa-angle-double-right"></i><hr>

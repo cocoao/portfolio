@@ -11,10 +11,27 @@
   .navBox .copy{font-size: 10px;}
 
   .ab_content_in .img img{width: 125%; margin-top: 3%;}
-  section{margin: 100px 60px 0;}
-  .ab_skill{width: 30%;}
+  .about section{margin: 80px 60px 0;}
+  section{padding: 60px;}
+  .about section.ab_skill{width: 30%;}
   .histTxt .dot{margin: 0 15px;}
   .skillSection .roundBox{width: 100%;}
+
+  /* publishing page */
+  .pu_dbProject, .pu_apiProject, .pu_renProject, .pu_pieProject, .pu_planProject{flex-direction: column; height: 100vh;}
+  .title{margin-bottom: 35px;}
+  .leftTxtBox,.rightTxtBox{width: 100%;}
+  .rightImgBox{width: 70%; margin: 60px auto;}
+  .leftImgBox{width: 95%; margin:auto;}
+  .leftImgBox .imgBox{height: 64.5%;}
+  .desc{position: relative; display: flex; flex-wrap: wrap; justify-content: space-between;}
+  .desc p{width: 100%;}
+  .pfBtns{position: relative; padding-bottom: 0; width: 50%;}
+  .leftTxtBox .pfBtns,.rightTxtBox .pfBtns{bottom: 0;}
+  .leftImgM{top: 54%; transform: translateY(-50%); width: 12%; right: 12%;}
+  .leftImgM .imgBox{height: 56%;}
+  .rightImgBox.plan{width: 100%; margin:0; margin-top: 30px;}
+  .rightImgBox.plan .imgBox{height: 64.5%;}
 }
 
 @media screen and (max-width : 950px){
@@ -46,18 +63,23 @@
   .ab_content_in .text h3{font-size: 30px; margin: 0; padding: 0;}
   .ab_content_in .text p{font-size: 12px; padding-bottom: 10px;}
 
-  .ab_history{width: 80%; margin-right:0}
-  .ab_skill{width: 80%; float: left; margin-left: 60px;}
+  .about section.ab_history{width: 80%; margin-right:0}
+  .about section.ab_skill{width: 80%; float: left; margin-left: 60px;}
   .ab_content_sk{width: 60%; left: 50%; transform: translateX(-50%);}
-  .ab_contact{width: 80%;}
+  .about section.ab_contact{width: 80%;}
+  .histTxt .dot{width: 7%;}
+
+  /* publishing page */
+  .rightImgBox{width: 90%;}
+  .leftImgBox{width: 100%;}
 }
 
 @media screen and (max-width : 750px){
   /* main page */
   .txtBoxes .nav>ul{padding: 30px 15px;}
-  .nav>ul p{text-align: center;}
+  /* .nav>ul p{text-align: center;} */
   .nav a{justify-content: center; color: #fff;}
-  .nav li:hover{border-bottom: 1px solid #fff; transition: all 0.4s;}
+  .nav li:hover{border-bottom: 1px solid #333; transition: all 0.4s;}
   .nav .hover{display: none;}
   .slides .slide span{padding: 20px; font-size: 28px;}
   .txtBoxes .txtBox{padding: 3px 20px;}
@@ -70,7 +92,8 @@
   .navBox .nav a{display: block;}
   .navBox .nav a p{font-size: 12px;}
 
-  section{margin: 35px 60px 0;}
+  .about section{margin: 35px 60px 0;}
+  section{padding: 60px;}
   .ab_content_in .img,.ab_intro{height: 60vh;}
   .ab_content_in .img img{width: 150%; margin-top: 15%;}
   .ab_content_in .text{padding-top: 40%; width: 85%;}
@@ -79,6 +102,11 @@
 
   .contactBox form input{width: 100%; margin-bottom: 5px;}
   .contactBox form textarea{margin: 0 0 5px 0;}
+
+  /* publishing page */
+  .rightImgBox{width: 100%;}
+  .leftImgBox .frame{width: 100%;}
+  .leftImgBox .imgBox{width: 78%; height: 203px;}
 }
 
 @media screen and (max-width : 600px){
@@ -93,16 +121,24 @@
   .histTxt .histName p{font-size: 12px;}
   .histTxt .dot{width: 3%;}
 
-  .ab_skill{margin-top: 70px;}
+  .about section.ab_skill{margin-top: 70px;}
   .ab_content_sk{transform: translateX(-60%);}
 
-  .ab_contact{padding-top: 60px;}
+  .about section.ab_contact{padding-top: 60px;}
   .contacBtns a{width: 35px; height: 35px;}
   .contacBtns a:nth-child(1) i{font-size: 30px;}
   .contacBtns i{font-size: 18px;}
   .contacBtns a:nth-child(3) i{font-size: 20px;}
 
-  section{margin: 35px 40px 0;}
+  .about section{margin: 35px 40px 0;}
+  section{padding: 35px 40px 0;}
+
+  /* publishing page */
+  .desc{justify-content: center; text-align: center; padding-top: 20px;flex-wrap: nowrap; flex-direction: column;align-items: center;}
+  .rightTxtBox{height: 40%;}
+  .title{margin-bottom: 35px; text-align: center;}
+  .title hr{display: none;}
+  /* .pu_dbProject, .pu_apiProject, .pu_renProject, .pu_pieProject, .pu_planProject{height: 85vh;} */
 }
 
 @media screen and (max-width : 480px){
@@ -143,8 +179,8 @@
   .txtBoxes .txtBox .copy{position: fixed; bottom: 0; left: 0px; border-top: 1px solid #ddd; text-align: center; padding: 10px 0; width: 100%;}
 
   /* about page */
-  .contents-wrap{width: 85%; margin: 0;}
-  .navBox{width: 100%; border: 0; left: 0; padding: 0; z-index: 100;}
+  .contents-wrap{width: 100%; margin: 0;}
+  .navBox{width: 100%; border: 0; left: 0; padding: 0; z-index: 100; height: auto;}
   .navBox .nameBox{position: fixed; width: 100%; top: 0; height: 50px; display: flex; align-items: center; background: #333; left: 0; padding: 0 20px;_z-index: 200;}
   .navBox .nav>ul{width: 100%; position: absolute; background: #333; height: auto; margin-top: 50px; display: none; z-index: -100;}
   .navBox .nav li{padding: 0; margin: 0; height: 55px; display: flex;}
@@ -156,7 +192,33 @@
   .mobileNav{display: block;}
 
   .navBox .copy{display: none;}
-  /* .copyOut{position: absolute; bottom: 0; left: 0px; border-top: 1px solid #ddd; text-align: center; padding: 10px 0; width: 100%; display: block;} */
+  .copyOut{position: relative; bottom: 0; left: 0px; border-top: 1px solid #ddd; text-align: center; padding: 10px 0; width: 100%; display: block;}
 
-  section{margin: 100px 10px 0;}
+  .about section,.about section.ab_skill{margin: 100px 30px 0;}
+  section{padding: 100px 30px 0;}
+  .ab_intro{height: 45vh;}
+  .ab_content_sk{transform: translateX(-50%);}
+  .ab_content_in .img{height: 65vh;}
+  .ab_content_in .img img{width: 175%; margin-top: 45%;}
+  .ab_content_in .text{padding-top: 46%; width: 84%; margin: 0 auto; margin-right: 21px;}
+  .title{margin-bottom: 20px; width: 100%;}
+  .ab_content_hi .line{left: 10%;}
+  .histTxt{padding: 20px 0; flex-direction: column; position: relative; padding-left: 8px;}
+  .histTxt span{width: 100%; text-align: left; padding-left:40px}
+  .histTxt .histName{width: 100%; padding-left: 40px;}
+  .histTxt .dot{position: absolute; width: 5%;}
+  .contacBtns{padding-top: 5px; margin: 0 auto 25px;}
+  .skillSection .roundBox>p{font-size: 14px; transform: translateX(-40%);}
+  
+
+  /* publishing page */
+  /* .pu_dbProject, .pu_apiProject, .pu_renProject, .pu_pieProject, .pu_planProject{height: 100vh;} */
+  .leftImgM .imgBox{border-radius: 5px;}
+  .rightImgBox.plan .imgBox{height: 50%;}
+  .pfBtns{width: 75%;}
+  .pfBtns a{height: 25px;}
+  .desc{padding-top: 0;}
+  .desc p{font-size: 12px;}
+  .rightTxtBox{margin-bottom: 40px;}
+  .rightImgBox .imgBox{height: 50%;}
 }
