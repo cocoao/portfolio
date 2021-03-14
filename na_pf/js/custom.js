@@ -1,4 +1,17 @@
 $(function(){
+ 
+  $(".mobileNav").click(function(){
+    $(this).toggleClass("on");
+    if($(this).hasClass("on")){
+      $(this).find("i").attr("class","fa fa-times");
+      $(this).next("ul").slideDown("fast");
+    } else {
+      $(this).find("i").attr("class","fa fa-bars");
+      $(this).next("ul").slideUp("fast");
+  
+    }
+  });
+
   function moveSlide(){
     $(".slide:first-child").animate({'width':0},700);
     $(".slide:nth-child(2)").addClass('active');

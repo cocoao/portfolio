@@ -15,24 +15,23 @@
 .desc p{padding-bottom: 5px; text-transform: uppercase;}
 
 /* image box style */
-.frame{padding-bottom: 100px;}
-.frame img{width: 100%;z-index: 1;}
+.frame{z-index: 1;}
+.frame img{width: 100%;}
 .imgBox{overflow: hidden; position: absolute;}
 .imgBox img{width: 100%; top: 0; position: absolute;}
 
-.rightImgBox{width: 68%; display: flex; justify-content: center; align-items: center; position: relative;}
-.rightImgBox .frame{width: 90%; _margin-left: 5%; display: flex; justify-content: center;}
-.rightImgBox .imgBox{width: 83%; height: 54%; margin: 3.3%; top: 0;}
+.rightImgBox{width: 65%; display: flex; justify-content: center; align-items: center; position: relative;}
+.rightImgBox .frame{width: 100%; height:100%; position: relative; _display: flex; _justify-content: center;}
+.rightImgBox .imgBox{width: 92.5%; height: 65%; margin: 3.7%; top: 0; position: absolute;top: 0%; left: 0; overflow: hidden;}
 
-.leftImgBox{width: 68%; display: flex; justify-content: center; align-items: center; position: relative;}
-.leftImgBox .frame{width: 90%; _margin-left: 5%; display: flex; justify-content: center;}
-.leftImgBox .imgBox{width: 70%; height: 63.5%; margin: 3% 1%; top: 0; display: flex; justify-content: center;align-items: center; overflow: hidden;}
+.leftImgBox{width: 65%; display: flex; justify-content: center; align-items: center; position: relative;}
+.leftImgBox .frame{width: 100%; height:100%; position: relative;}
+.leftImgBox .imgBox{width: 78%; height: 80.5%; margin: 3.4% 1%; top: 0; display: flex; justify-content: center;align-items: center; overflow: hidden;}
 .leftImgBox .imgBox img{height: 100%; width: auto;}
 
-.planBg .rightImgBox{width: 68%; display: flex; justify-content: center; align-items: center; position: relative;}
-.planBg .rightImgBox .frame{width: 90%; _margin-left: 5%; display: flex; justify-content: center;}
-.planBg .rightImgBox .imgBox{width: 70%; height: 63%; margin: 3% 1%; top: 0;}
-.planBg .rightImgBox .imgBox img{width: 100%;}
+.leftImgBox.plan img{width: 100%; height: auto;}
+
+
 
 /* apiProject style */
 .apiBg{width: 100%; height: 100vh; background: #c92e2b; position: relative;}
@@ -46,10 +45,10 @@
 
 /* pieProject style */
 .pieBg{width: 100%; height: 100vh; background: #ffe138; position: relative;}
-.leftImgM{width: 10%;position: absolute; bottom: 50px; z-index: 10; display: flex; justify-content: center;}
-.leftImgM .frame_mobile{width: 100%; z-index: 5;}
+.leftImgM{width:10%; display: flex; justify-content: center; align-items: center; position: absolute; bottom: 0; z-index: 10;}
+.leftImgM .frame_mobile{width: 100%; height:100%; position: relative; z-index: 5;}
 .leftImgM .frame_mobile img{width: 100%;}
-.leftImgM .imgBox{overflow: hidden; position: absolute; border-radius: 13px; margin: 5% 6.5%; height: 94.5%; width: 88%;}
+.leftImgM .imgBox{width: 89.5%; height: 94.5%; margin: 5.5%; top: 0; position: absolute;top: 0%; left: 0; overflow: hidden; border-radius: 10px;}
 
 /* pieProject style */
 .planBg{width: 100%; height: 100vh; background: #dddddb; position: relative;}

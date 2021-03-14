@@ -20,19 +20,6 @@ $(function(){
     $('.ab_content_in .img img').css({'top':winWidth * 0.22});
   });
   
-  $(".mobileNav").click(function(){
-    $(this).toggleClass("on");
-    if($(this).hasClass("on")){
-      $(this).find("i").attr("class","fa fa-times");
-      $(this).next("ul").slideDown("fast");
-    
-    } else {
-      $(this).find("i").attr("class","fa fa-bars");
-      $(this).next("ul").slideUp("fast");
-  
-    }
-  });
-  
   AOS.init({
     offset: 200,
     duration: 600,
@@ -90,50 +77,12 @@ $(function(){
 
 
 $(function(){
-  $('.rightImgBox.plan').on('mouseover',function(){
+  $('.leftImgBox.plan').on('mouseover',function(){
     const imgHeight = $(this).find(".imgBox img").height();
     const frameHeight = $(this).find(".imgBox").height();
     $(this).find(".imgBox img").stop().animate({top:-imgHeight + frameHeight}, 1000);
   });
-  $('.rightImgBox').on('mouseout',function(){
-    $(".rightImgBox .imgBox img").stop().animate({top:0}, 1000);
-  });
-});
-
-$(function(){
-  var winWidth = $(window).width();
-  if(winWidth<1200){
-  $('.leftImgBox .imgBox').css({'height':winWidth * 0.295});
-  $('.leftImgM .imgBox').css({'width':winWidth * 0.09, 'height':winWidth * 0.185})
-  };
-  if(winWidth<750){
-  $('.leftImgBox .imgBox').css({'height':winWidth * 0.315});
-  }
-  if(winWidth<600){
-    $('.leftImgBox .imgBox').css({'height':winWidth * 0.33});
-  }
-  if(winWidth<=480){
-    $('.leftImgBox .imgBox').css({'height':'53%'});
-    $('.leftImgM .imgBox').css({'width':'90%', 'height':'33%'})
-
-  }
-
-  $(window).resize(function(){
-    var winWidth = $(window).width();
-    if(winWidth<1200){
-    $('.leftImgBox .imgBox').css({'height':winWidth * 0.295});
-    $('.rightImgBox.plan .imgBox').css({'height':winWidth * 0.3});
-    $('.leftImgM .imgBox').css({'width':winWidth * 0.09, 'height':winWidth * 0.185})
-    }
-    if(winWidth<750){
-      $('.leftImgBox .imgBox').css({'height':winWidth * 0.315});
-    }
-    if(winWidth<600){
-      $('.leftImgBox .imgBox').css({'height':winWidth * 0.33});
-    }
-    if(winWidth<=480){
-      $('.leftImgBox .imgBox').css({'height':'53%'});
-      $('.leftImgM .imgBox').css({'width':'90%', 'height':'33%'})
-    }
+  $('.leftImgBox.plan').on('mouseout',function(){
+    $(".leftImgBox .imgBox img").stop().animate({top:0}, 1000);
   });
 });

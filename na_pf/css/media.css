@@ -21,17 +21,13 @@
   .pu_dbProject, .pu_apiProject, .pu_renProject, .pu_pieProject, .pu_planProject{flex-direction: column; height: 100vh;}
   .title{margin-bottom: 35px;}
   .leftTxtBox,.rightTxtBox{width: 100%;}
-  .rightImgBox{width: 70%; margin: 60px auto;}
-  .leftImgBox{width: 95%; margin:auto;}
-  .leftImgBox .imgBox{height: 64.5%;}
+  .rightImgBox{_width: 70%; margin: 60px auto;}
+  .leftImgBox,.rightImgBox.plan{width: 80%; margin:auto;}
   .desc{position: relative; display: flex; flex-wrap: wrap; justify-content: space-between;}
   .desc p{width: 100%;}
   .pfBtns{position: relative; padding-bottom: 0; width: 50%;}
   .leftTxtBox .pfBtns,.rightTxtBox .pfBtns{bottom: 0;}
-  .leftImgM{top: 54%; transform: translateY(-50%); width: 12%; right: 12%;}
-  .leftImgM .imgBox{height: 56%;}
-  .rightImgBox.plan{width: 100%; margin:0; margin-top: 30px;}
-  .rightImgBox.plan .imgBox{height: 64.5%;}
+  .leftImgM{display: none;}
 }
 
 @media screen and (max-width : 950px){
@@ -70,7 +66,7 @@
   .histTxt .dot{width: 7%;}
 
   /* publishing page */
-  .rightImgBox{width: 90%;}
+  .rightImgBox{width: 80%;}
   .leftImgBox{width: 100%;}
 }
 
@@ -106,7 +102,7 @@
   /* publishing page */
   .rightImgBox{width: 100%;}
   .leftImgBox .frame{width: 100%;}
-  .leftImgBox .imgBox{width: 78%; height: 203px;}
+  .pfBtns{width: 60%;}
 }
 
 @media screen and (max-width : 600px){
@@ -138,7 +134,7 @@
   .rightTxtBox{height: 40%;}
   .title{margin-bottom: 35px; text-align: center;}
   .title hr{display: none;}
-  /* .pu_dbProject, .pu_apiProject, .pu_renProject, .pu_pieProject, .pu_planProject{height: 85vh;} */
+  .pu_dbProject, .pu_apiProject, .pu_renProject, .pu_pieProject, .pu_planProject{padding: 25% 10%;}
 }
 
 @media screen and (max-width : 480px){
@@ -160,7 +156,7 @@
   .txtBoxes .nameBox h3, .navBox .nameBox h3 p{color: #fff; display: inline;}
   .txtBoxes .nameBox hr{display: none;}
   .txtBoxes .nav li:hover{background: #111;}
-  .nameBox{position: fixed; top: 0; left: 0; z-index: 200; height: 50px; display: flex; align-items: center; padding: 0 20px;}
+  .nameBox,.nameBox.mainNam{position: fixed; top: 0; left: 0; z-index: 200; height: 50px; display: flex; align-items: center; padding: 0 20px;}
   .nameBox h3{color: #fff;}
   .nameBox h3 p{display: inline;}
   .nameBox>p{display: none;}
@@ -212,13 +208,9 @@
   
 
   /* publishing page */
-  /* .pu_dbProject, .pu_apiProject, .pu_renProject, .pu_pieProject, .pu_planProject{height: 100vh;} */
-  .leftImgM .imgBox{border-radius: 5px;}
-  .rightImgBox.plan .imgBox{height: 50%;}
   .pfBtns{width: 75%;}
   .pfBtns a{height: 25px;}
   .desc{padding-top: 0;}
   .desc p{font-size: 12px;}
-  .rightTxtBox{margin-bottom: 40px;}
-  .rightImgBox .imgBox{height: 50%;}
+
 }

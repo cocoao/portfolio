@@ -72,8 +72,8 @@
                 <img src="/na_pf/img/frame_mac.png" alt="frame">
               </div>
               <div class="imgBox">
-                  <img src="/na_pf/img/pu_space.png" alt="spaceWebImg">
-                </div>
+                <img src="/na_pf/img/pu_space.png" alt="spaceWebImg">
+              </div>
             </div>
         </section>
       </div>
@@ -231,9 +231,9 @@
       </div>
     </div> <!-- end of pieproject -->
     <div class="planBg section">
-      <div class="contents-wrap clear puPage">
+    <div class="contents-wrap clear puPage">
         <section class="pu_planProject">
-            <div class="leftTxtBox">
+            <div class="rightTxtBox">
               <div class="title">
                 <hr>
                 <p>Web planning project</p>
@@ -272,7 +272,7 @@
                 </div>
               </div>
             </div>
-            <div class="rightImgBox plan">
+            <div class="leftImgBox plan">
               <div class="frame">
                 <img src="/na_pf/img/frame_macbook.png" alt="frame">
               </div>
