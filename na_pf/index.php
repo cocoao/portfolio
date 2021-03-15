@@ -25,12 +25,12 @@
   <div class="slides" id="slide">
     <div class="slide-box">
       <div class="slide main-na active" value="main-na">
-        <img src="/na_pf/img/main_na.jpg">
+        <img src="/na_pf/img/main_na.jpg" onclick="location.href='/na_pf/pages/about.php'">
         <i class="fa fa-angle-double-right"></i>
         <span>N<p>A HYEJEONG<p></span>
       </div>
       <div class="slide main-pu" value="main-pu">
-        <img src="/na_pf/img/main_pu.jpg">
+        <img src="/na_pf/img/main_pu.jpg" onclick="location.href='/na_pf/pages/publishing.php'">
         <i class="fa fa-angle-double-right"></i>
         <span>P<p>UBLISHING<p></span>
       </div>
@@ -39,8 +39,8 @@
         <i class="fa fa-angle-double-right"></i>
         <span>D<p>ESIGN<p></span>
       </div>
-      <div class="slide main-mo" value="main-mo">
-        <img src="/na_pf/img/main_mo.jpg">
+      <div class="slide main-mo" value="main-mo" >
+        <img src="/na_pf/img/main_mo.jpg" onclick="location.href='/na_pf/pages/more.php'">
       <i class="fa fa-angle-double-right"></i>
       <span>M<p>ORE WORKS<p></span>
     </div>
@@ -49,44 +49,44 @@
     <div class="txtBoxes">
       <div class="txtBox">
         <div class="contents clear main-na">
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/about.php#ab_intro'">
             <p>Information of me</p>
             <hr>
             <h3>INTRO</h3>
           </div>
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/about.php#ab_history'">
             <p>History of me</p>
             <hr>
             <h3>CAREER</h3>
           </div>
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/about.php#ab_skill'">
             <p>My ability</p>
             <hr>
             <h3>SKILL</h3>
           </div>
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/about.php#ab_contact'">
             <p>Contact me</p>
             <hr>
             <h3>CONTACT</h3>
           </div>
         </div>
         <div class="contents clear main-pu">
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/publishing.php#1'">
             <p>Database project</p>
             <hr>
             <h3>SPACE</h3>
           </div>
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/publishing.php#2'">
             <p>API project</p>
             <hr>
             <h3>CINEMA <p>NOW.</p></h3>
           </div>
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/publishing.php#3'">
             <p>Renewal project</p>
             <hr>
             <h3>JOMALONE <p>LONDON</p></h3>
           </div>
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/publishing.php#5'">
             <p>Web planning project</p>
             <hr>
             <h3>BURGER'S</h3>
@@ -115,17 +115,17 @@
           </div>
         </div>
         <div class="contents clear main-mo">
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/more.php#.edit'">
             <p>Leaflet & Brochure</p>
             <hr>
             <h3>EDITORIAL</h3>
           </div>
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/more.php#.ad'">
             <p>POP & Poster</p>
             <hr>
             <h3>ADVERTISE<p>MENT</p></h3>
           </div>
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/more.php#.etc'">
             <p>Branding & Packaging</p>
             <hr>
             <h3>ETC.</h3>
@@ -142,8 +142,10 @@
         </div>
       </div>
       <div class="nameBox mainNam">
+        <a href="/na_pf/index.php">
         <h3><p>NA </p>HYE JEONG</h3>
         <p>PORTFOLIO</p>
+        </a>
         <hr>
       </div>
       <div class="nav">
@@ -175,7 +177,7 @@
               <i class="fa fa-angle-double-right"></i><hr>
             </span>
           </a></li>
-          <li><a href="#">
+          <li><a href="/na_pf/pages/more.php">
             <p>MORE WORKS</p>
             <span class="hover">
               <i class="fa fa-angle-double-right"></i><hr>

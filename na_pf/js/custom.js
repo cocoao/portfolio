@@ -8,7 +8,7 @@ $(function(){
     } else {
       $(this).find("i").attr("class","fa fa-bars");
       $(this).next("ul").slideUp("fast");
-  
+      $(this).removeClass("on")
     }
   });
 

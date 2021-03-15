@@ -61,8 +61,8 @@
                   </div>
                 </div>
                 <div class="pfBtns">
-                  <a href="#">Link</a>
-                  <a href="#">Git</a>
+                  <a href="http://cocoao.dothome.co.kr/space" target="_blank">Link</a>
+                  <a href="https://github.com/cocoao/SPACE.git" target="_blank">Git</a>
                   <a href="#">Report</a>
                 </div>
               </div>
@@ -117,8 +117,8 @@
                   </div>
                 </div>
                 <div class="pfBtns">
-                  <a href="#">Link</a>
-                  <a href="#">Git</a>
+                  <a href="http://cocoao.dothome.co.kr/cinema" target="_blank">Link</a>
+                  <a href="https://github.com/cocoao/API_movie.git" target="_blank">Git</a>
                   <a href="#">Report</a>
                 </div>
               </div>
@@ -160,8 +160,8 @@
                   </div>
                 </div>
                 <div class="pfBtns">
-                  <a href="#">Link</a>
-                  <a href="#">Git</a>
+                  <a href="http://cocoao.dothome.co.kr/jomalone" target="_blank">Link</a>
+                  <a href="https://github.com/cocoao/Renewal_Jomalone.git" target="_blank">Git</a>
                   <a href="#">Report</a>
                 </div>
               </div>
@@ -221,8 +221,8 @@
                   </div>
                 </div>
                 <div class="pfBtns">
-                  <a href="#">Link</a>
-                  <a href="#">Git</a>
+                  <a href="http://cocoao.dothome.co.kr/my_schedule" target="_blank">Link</a>
+                  <a href="https://github.com/cocoao/My_Schedule.git" target="_blank">Git</a>
                   <a href="#">Report</a>
                 </div>
               </div>

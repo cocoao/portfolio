@@ -1,7 +1,9 @@
 <div class="navBox subNav">
   <div class="nameBox">
+    <a href="/na_pf/index.php">
     <h3><p>NA </p>HYE JEONG</h3>
     <p>PORTFOLIO</p>
+    </a>
     <hr>
   </div>
   <div class="nav">
@@ -33,7 +35,7 @@
           <i class="fa fa-angle-double-right"></i><hr>
         </span>
       </a></li>
-      <li><a href="#">
+      <li><a href="/na_pf/pages/more.php">
         <p>MORE WORKS</p>
         <span class="hover">
           <i class="fa fa-angle-double-right"></i><hr>

@@ -28,6 +28,14 @@
   .pfBtns{position: relative; padding-bottom: 0; width: 50%;}
   .leftTxtBox .pfBtns,.rightTxtBox .pfBtns{bottom: 0;}
   .leftImgM{display: none;}
+
+  /* more page */
+  .mo_imgView{width: 100%;}
+  .moBtns{flex-wrap: wrap;}
+  .moBtns button{width: 33.33%; margin-bottom: 5px;}
+  .moBtns button:nth-child(3){border-radius: 0 5px 5px 0;}
+  .moBtns button:nth-child(4){border-radius: 5px 0 0 5px;}
+  .moImgBox, .box-sizer{width: 33.33%;}
 }
 
 @media screen and (max-width : 950px){
@@ -68,6 +76,9 @@
   /* publishing page */
   .rightImgBox{width: 80%;}
   .leftImgBox{width: 100%;}
+
+  /* more page */
+  .moImgBox, .box-sizer{width: 50%;}
 }
 
 @media screen and (max-width : 750px){
@@ -135,6 +146,11 @@
   .title{margin-bottom: 35px; text-align: center;}
   .title hr{display: none;}
   .pu_dbProject, .pu_apiProject, .pu_renProject, .pu_pieProject, .pu_planProject{padding: 25% 10%;}
+
+  /* more page */
+  .moImgBox, .box-sizer{width: 100%;}
+  .moBtns button{font-size: 12px;}
+  .moBtns button:hover, .moBtns button.active{font-size: 13px;}
 }
 
 @media screen and (max-width : 480px){
