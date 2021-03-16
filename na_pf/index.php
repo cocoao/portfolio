@@ -34,7 +34,7 @@
         <i class="fa fa-angle-double-right"></i>
         <span>P<p>UBLISHING<p></span>
       </div>
-      <div class="slide main-de" value="main-de">
+      <div class="slide main-de" value="main-de" onclick="location.href='/na_pf/pages/design.php'">
         <img src="/na_pf/img/main_de.jpg">
         <i class="fa fa-angle-double-right"></i>
         <span>D<p>ESIGN<p></span>
@@ -111,7 +111,7 @@
           <div class="indexTxt">
             <p>POP advertisement</p>
             <hr>
-            <h3>WATSONS</h3>
+            <h3>MAGIC</h3>
           </div>
         </div>
         <div class="contents clear main-mo">
@@ -171,7 +171,7 @@
               <i class="fa fa-angle-double-right"></i><hr>
             </span>
           </a></li>
-          <li><a href="#">
+          <li><a href="/na_pf/pages/design.php">
             <p>DESIGN</p>
             <span class="hover">
               <i class="fa fa-angle-double-right"></i><hr>

@@ -215,7 +215,7 @@
             <a href="mailto:cocoao@naver.com"><i class="fa fa-envelope"></i></a>
             <a href="https://open.kakao.com/o/sDmO461c"><i class="fa fa-commenting"></i></a>
           </div>
-          <form action=”mailto:cocoao@naver.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm” class="contact">
+          <form action="mailto:cocoao@naver.com" method="POST" enctype="multipart/form-data" name="EmailForm" class="contact">
             <input type="text" class="conName" placeholder="이름을 입력해주세요.">
             <input type="text" class="conCompany" placeholder="회사명을 입력해주세요.">
             <input type="text" class="conMail" placeholder="메일주소를 입력해주세요.">

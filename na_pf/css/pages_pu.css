@@ -8,8 +8,8 @@
 .useBox .icon img{width: 80%; transition: all 0.4s;}
 .useBox .icon:hover img{width: 100%;}
 .useBox .useLine{height: 30px; width: 1px; background:  #d4bfa2; margin-left: 5px;}
-.pfBtns{width: 100%; display: flex; justify-content: space-around; align-items: center; position: absolute; bottom: 10px; padding-bottom: 100px;}
-.pfBtns a{width: 30%; _background: #333; color: #333; height:40px; border-radius: 5px; display: flex; justify-content: center; align-items: center; border: 1px solid #333; text-transform: uppercase; font-size: 12px; font-weight: 500; transition: all 0.4s;}
+.pfBtns{width: 100%; display: flex; justify-content: space-between; align-items: center; position: absolute; bottom: 10px; padding-bottom: 100px;}
+.pfBtns a{width: 31%; _background: #333; color: #333; height:40px; border-radius: 5px; display: flex; justify-content: center; align-items: center; border: 1px solid #333; text-transform: uppercase; font-size: 12px; font-weight: 500; transition: all 0.4s;}
 .leftTxtBox .pfBtns{bottom: 70px;}
 .pfBtns a:hover{background: #333; color: #fff; font-size: 14px;}
 .desc p{padding-bottom: 5px; text-transform: uppercase;}

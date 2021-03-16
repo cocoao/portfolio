@@ -119,7 +119,7 @@
                 <div class="pfBtns">
                   <a href="http://cocoao.dothome.co.kr/cinema" target="_blank">Link</a>
                   <a href="https://github.com/cocoao/API_movie.git" target="_blank">Git</a>
-                  <a href="#">Report</a>
+                  <a href="/na_pf/img/db_space_report.pdf" target="_blank">Report</a>
                 </div>
               </div>
             </div>
@@ -162,7 +162,7 @@
                 <div class="pfBtns">
                   <a href="http://cocoao.dothome.co.kr/jomalone" target="_blank">Link</a>
                   <a href="https://github.com/cocoao/Renewal_Jomalone.git" target="_blank">Git</a>
-                  <a href="#">Report</a>
+                  <a href="/na_pf/img/renewal_jomalone_report.pdf" target="_blank">Report</a>
                 </div>
               </div>
             </div>
@@ -223,7 +223,7 @@
                 <div class="pfBtns">
                   <a href="http://cocoao.dothome.co.kr/my_schedule" target="_blank">Link</a>
                   <a href="https://github.com/cocoao/My_Schedule.git" target="_blank">Git</a>
-                  <a href="#">Report</a>
+                  <a href="/na_pf/img/piechart_myschedule_report.pdf" target="_blank">Report</a>
                 </div>
               </div>
             </div>
@@ -266,9 +266,9 @@
                   </div>
                 </div>
                 <div class="pfBtns">
-                  <a href="#">Link</a>
-                  <a href="#">Git</a>
-                  <a href="#">Report</a>
+                  <!-- <a href="#">Link</a>
+                  <a href="#">Git</a> -->
+                  <a href="/na_pf/img/plan_burgers_report.pdf" target="_blank">Report</a>
                 </div>
               </div>
             </div>

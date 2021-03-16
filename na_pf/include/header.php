@@ -29,7 +29,7 @@
           <i class="fa fa-angle-double-right"></i><hr>
         </span>
       </a></li>
-      <li><a href="#">
+      <li><a href="/na_pf/pages/design.php">
         <p>DESIGN</p>
         <span class="hover">
           <i class="fa fa-angle-double-right"></i><hr>
