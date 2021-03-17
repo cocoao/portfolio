@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NA_HYEJEONG</title>
+  <!-- favicon link -->
+  <link rel="icon" href="/na_pf/img/favicon_na.ico">
+  <link rel="apple-touch-icon" href="/na_pf/img/favicon_na.ico">
+
   <!-- font awesome font link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -13,6 +17,7 @@
   <link rel="stylesheet" href="/na_pf/css/animation.css">
   <link rel="stylesheet" href="/na_pf/css/pages_common.css">
   <link rel="stylesheet" href="/na_pf/css/pages_mo.css">
+  <link rel="stylesheet" href="/na_pf/plugin/lightbox.css">
   <link rel="stylesheet" href="/na_pf/css/media.css">
 
   <!-- jquery link -->
@@ -21,7 +26,6 @@
   <script src="/na_pf/js/pages.js"></script>
 
   <!-- plugin link -->
-  <link rel="stylesheet" href="/na_pf/plugin/lightbox.css">
   <script src="/na_pf/plugin/lightbox.js"></script>
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>

@@ -2,7 +2,7 @@
 .slides .slide-box{position:relative; left:0; top:0; width:100%; height:65vh; overflow:hidden;}
 .slides .slide-box .slide{overflow:hidden; text-overflow: ellipsis; white-space:nowrap; float:left; position:absolute; top:0; height: 65vh; cursor: pointer;}
 
-.slides .slide:nth-child(1){width:60%; left:0;}
+.slides .slide:nth-child(1){width:60%; left:0;z-index: 1;}
 .slides .slide:nth-child(2){width:20%; left:60%;}
 .slides .slide:nth-child(3){width:10%; left:80%;}
 .slides .slide:nth-child(4){width:10%; left:90%;}

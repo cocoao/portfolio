@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NA_HYEJEONG</title>
+  <!-- favicon link -->
+  <link rel="icon" href="/na_pf/img/favicon_na.ico">
+  <link rel="apple-touch-icon" href="/na_pf/img/favicon_na.ico">
+
   <!-- font awesome font link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -215,11 +219,11 @@
             <a href="mailto:cocoao@naver.com"><i class="fa fa-envelope"></i></a>
             <a href="https://open.kakao.com/o/sDmO461c"><i class="fa fa-commenting"></i></a>
           </div>
-          <form action="mailto:cocoao@naver.com" method="POST" enctype="multipart/form-data" name="EmailForm" class="contact">
-            <input type="text" class="conName" placeholder="이름을 입력해주세요.">
-            <input type="text" class="conCompany" placeholder="회사명을 입력해주세요.">
-            <input type="text" class="conMail" placeholder="메일주소를 입력해주세요.">
-            <textarea class="conText" placeholder="내용을 입력해주세요."></textarea>
+          <form action="/na_pf/include/submit_mail.php" method="POST" enctype="multipart/form-data" name="EmailForm" class="contact">
+            <input type="text" class="conName" placeholder="이름을 입력해주세요." name="name">
+            <input type="text" class="conCompany" placeholder="회사명을 입력해주세요." name="company">
+            <input type="text" class="conMail" placeholder="메일주소를 입력해주세요." name="email">
+            <textarea class="conText" placeholder="내용을 입력해주세요." name="message"></textarea>
             <button type="submit">SEND</button>
           </form>
         </div>

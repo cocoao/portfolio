@@ -7,17 +7,6 @@ $(function(){
 
 // about page
 $(function(){
-  $(window).scroll(function(){
-    if($('.skillSection').hasClass('aos-animate')){
-      for(let i=0; i<$('.roundBox').length; i++){
-      const percent = $('.roundBox').eq(i).find('.percentTxt').text();
-      $('.roundBox').eq(i).find('.hover').css({'display':'flex'});
-      $('.roundBox').eq(i).find('.percentBg').animate({'width': percent,'opacity':'1'}, 1000)
-      }
-    }
-  });
-    
-
   var winWidth = $(window).width();
   $('.ab_content_in .text').css({'height':winWidth * 0.22})
   $('.ab_content_in .img img').css({'top':winWidth * 0.22});
@@ -26,6 +15,19 @@ $(function(){
     var winWidth = $(window).width();
     $('.ab_content_in .text').css({'height':winWidth * 0.225});
     $('.ab_content_in .img img').css({'top':winWidth * 0.22});
+  });
+
+  $(window).scroll(function(){
+    var skillWinWidth = $(window).width();
+    if($('.skillSection').hasClass('aos-animate')){
+      for(let i=0; i<$('.roundBox').length; i++){
+      if(skillWinWidth > 480){
+      const percent = $('.roundBox').eq(i).find('.percentTxt').text();
+      $('.roundBox').eq(i).find('.hover').css({'display':'flex'});
+      $('.roundBox').eq(i).find('.percentBg').animate({'width': percent,'opacity':'1'}, 1000);
+      }
+      }
+    }
   });
   
   AOS.init({

@@ -1,4 +1,31 @@
-.about section{margin: 100px 80px 0; padding: 0;}
+/* navigation style */
+.navBox{width: 20%; height: 100%; position: fixed; border-right: 1px dotted #333; left: 0; top: 0;  padding: 40px;}
+.navBox .nameBox{width: 100%; padding-bottom: 30px;}
+.navBox .nameBox h3{font-size: 28px;}
+.navBox .nameBox p{font-size: 28px;}
+.navBox .nameBox hr{border:0; border-bottom: 3px solid #333; margin-top: 10px;}
+.navBox .nav>ul{width: 100%;display: flex; justify-content: space-between; align-items: center; flex-direction: column;height: 100%;}
+.navBox .nav li{width: 100%; position: relative; height: 20%; margin: 10px 0;}
+.navBox .nav a{width: 100%; color: #333; display: flex; justify-content: space-between; align-items: center;}
+.navBox .nav i{font-size: 20px; transition: all 0.6s;}
+.navBox .nav hr{width: 0; position: absolute; border:0; border-bottom: 1px solid #333; bottom: 0; left: 0; transition: all 0.6s;}
+.navBox .nav .hover{opacity: 0;transition: all 0.6s;}
+.navBox .nav li:hover .hover,.navBox .nav li.active .hover{opacity: 1;}
+.navBox .nav li:hover hr,.navBox .nav li.active hr{width: 100%;}
+.navBox .copy,.copyOut{bottom:40px; position: absolute; font-size: 12px; width: 100%; text-align: center;left: 0;}
+.navBox .copy p,.copyOut p{text-align: center; }
+.copyOut{display: none;}
+
+.mobileNav{position: fixed; right: 0; padding: 15px; display: none;}
+.mobileNav i{font-size: 24px; color: #fff;}
+
+/* common style */
+.contents-wrap{width: 80%; margin-left: 20%; position: relative;}
+section{margin: 100px 80px 0;}
+.title{width: auto; height: auto; position: relative;padding: 0 15px; margin-bottom: 50px;}
+.title hr{width: 1px; height: 80%; border: 0; border-left: 2px solid #333; position: absolute; top: 50%; left: 0; transform: translateY(-50%);}
+.title p{font-size: 14px;}
+.title h3{font-size: 24px;}
 
 /* intro section style */
 .ab_intro{height: 68vh;}
@@ -12,7 +39,7 @@
 .ab_content_in .text p{font-weight: 300; padding-bottom: 15px;}
 
 /* history section style */
-.about section.ab_history{width: 50%; float: left; margin-right: 4%;}
+.ab_history{width: 50%; float: left; margin-right: 4%;}
 .ab_content_hi{width: 100%; height: auto; position: relative;}
 .ab_content_hi .line{height: 100%; border: 0; border-left: 1px solid #333; position: absolute; left: 30%; left: 24.5%;}
 .ab_content_hi .ab_history{width: 100%;}
@@ -25,12 +52,12 @@
 .histTxt .histName p{text-align: left; font-size: 13px; font-weight: 400;}
 
 /* skill section style */
-.about section.ab_skill{width: 25%; float: right; margin-left: 0;} 
+.ab_skill{width: 25%; float: right; margin-left: 0;} 
 .ab_content_sk{width: 100%; height: auto; position: relative;}
 .skillSection{margin-bottom: 50px;}
 .skillSection h4{font-size: 14px; font-weight: 600;margin-bottom: 15px;}
 .skillSection .roundBox{width: 80%; padding: 5px; border-radius: 40px; height: 40px; border: 1px solid #333; display: flex; align-items: center; margin-bottom: 10px; position: relative;}
-.skillSection .roundBox .hover{display: none; align-items: center; position: absolute; width: 94%; z-index: -10;}
+.skillSection .roundBox .hover{display: none; align-items: center; position: absolute; width: 94%; z-index: 10;}
 .skillSection .roundBox .hover .percentBg{display: flex; width: 0; position: absolute;border-radius: 40px; height: 30px; opacity: 0;}
 .skillSection .roundBox .percentTxt{width: 100%; text-align: center; color: #fff; z-index: 10; display: none; padding-left: 15px; transition: all 0.5s;}
 .skillSection .roundBox:hover .hover{display: flex;}
@@ -46,14 +73,13 @@
 
 .skillSection .roundBox .icon{width: 30px; height: 30px; border-radius: 50%; background: #333; display: flex; justify-content: center; align-items: center;}
 .skillSection .roundBox .icon img{width: 90%;}
-.skillSection .roundBox>p{font-size: 18px; font-weight: 400; text-align: center;position: absolute; left: 50%; transform: translateX(-50%);}
+.skillSection .roundBox p{width: 100%; font-size: 18px; font-weight: 400; text-align: center;position: absolute;}
 
 /* contact section style */
-.about section.ab_contact{width: 85%; display: flex; padding-top: 100px;}
+.ab_contact{width: 85%; display: flex; padding-top: 100px;}
 .contactBox{width: 100%; display: flex; justify-content: space-between;flex-wrap: wrap;}
 .contacBtns{ display: flex; justify-content: space-between;}
 .contacBtns a{width: 50px; height: 50px; border-radius: 50%; background: #ddd; margin-left: 10px; display: flex; justify-content: center; align-items: center;}
-.contacBtns a:first-child{margin-left: 0;}
 .contacBtns a:hover{background: #333;}
 .contacBtns i{font-size: 24px; color: #fff; padding-bottom: 2px;}
 .contacBtns a:nth-child(1) i{font-size: 38px;}
@@ -61,5 +87,5 @@
 .contactBox form{width: 100%; margin-bottom: 100px; display: flex; flex-wrap: wrap; justify-content: space-between;}
 .contactBox form input{width: 32%; padding: 10px; outline: 0; border: 0; background: #eee; color: #333;}
 .contactBox form textarea{width: 100%; padding: 10px; resize: none; outline: 0;background: #eee; color: #333; border: 0; height: 200px; margin: 10px 0;}
-.contactBox form button{width:100%; padding: 8px; background: #333; color: #fff; font-weight: 600; outline: none; border: 0; font-family: 'Roboto'}
-.contactBox form button:hover{background: #111;}
+.contactBox form button{width:100%; padding: 8px; background: #333; color: #fff; font-weight: 600; outline: none; border: 0;}
+.contactBox form button:hover{background: #111; color: #ECE44B;}

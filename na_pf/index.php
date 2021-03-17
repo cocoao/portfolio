@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NA_HYEJEONG</title>
+
+  <!-- favicon link -->
+  <link rel="icon" href="/na_pf/img/favicon_na.ico">
+  <link rel="apple-touch-icon" href="/na_pf/img/favicon_na.ico">
+
   <!-- font awesome font link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -16,8 +21,6 @@
   <!-- jquery link -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="/na_pf/js/custom.js"></script>
-
-
 </head>
 <body>
   <div class="main-wrap">

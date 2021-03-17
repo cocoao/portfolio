@@ -1,3 +1,5 @@
+.design section{padding: 80px;}
+
 .dePage .title{margin-bottom: 15px;}
 .desc{width: 40%; display: flex; flex-direction: row; align-items: center; justify-content: space-between; padding: 0 15px;}
 .useBox{width: fit-content; background: #fff; border-radius: 50px; display: flex; flex-direction: row; margin: 10px 0;}
@@ -7,7 +9,8 @@
 .useBox .icon:hover img{width: 100%;}
 .useBox .useLine{height: 30px; width: 1px; background:  #d4bfa2; margin-left: 5px;}
 
-.imgBox{width: 90%; height: 100%; margin: 30px auto; position: relative; display: flex; justify-content: center; align-items: center;}
+/* leaflet section style */
+.imgBox{width: 85%; height: 100%; margin: 30px auto; position: relative; display: flex; justify-content: center; align-items: center;}
 .coverImgBox{width: 100%; position: relative;justify-content: space-between; display: flex; padding: 20px; height: 65vh; align-items: center;}
 .coverImgBox .cover{width: 25%; position: absolute; box-shadow: -1px 1px 3px #333; transition: all 0.5s;}
 .coverImgBox .cover img{width: 100%;}
@@ -16,7 +19,7 @@
 .coverImgBox .cover:nth-child(3){left: 38%;}
 .coverImgBox .cover:nth-child(4){left: 55%;}
 .coverImgBox .cover:nth-child(5){left: 74%;}
-.coverImgBox .cover:hover{z-index: 100; width: 27%;}
+.coverImgBox .cover:hover{z-index: 100; width: 30%;}
 .hiddenHe{width: 100%; height: 100%;}
 
 .bookNav{width: 100%; display: flex; flex-direction: row; height: 100%; background: transparent; }
@@ -24,11 +27,23 @@
 .next{width: 50%; height: 100%;z-index: 999;}
 .bb-item img{width: 100%;}
 
+/* cardnews section style */
 .frame{width: 80%; margin: 0 auto; position: relative; z-index: 100; height: 100%;}
 .frame img{width: 100%;}
+.slideBg{background: #111; width: 69%; height: 91%; position: absolute;margin-bottom: 1%; z-index: -10;}
 
+#deSlider{position: absolute; overflow: hidden; margin-bottom: 1vh;}
+#deSlider ul{position: relative;margin: 0; padding: 0; height: 200px; list-style: none;}
+#deSlider ul li{position: relative; display: block; float: left; margin: 0; padding: 0; background: #ccc; text-align: center; line-height: 300px; width: 30vw;}
+#deSlider ul li img{width: 100%;}
+a.control_prev, a.control_next{position: absolute; top: 50%; transform: translateY(-50%); z-index: 999; display: block; padding: 3% 1.5%; width: auto; height: auto; background: #2a2a2a; color: #fff; text-decoration: none; font-weight: 600; font-size: 18px; opacity: 0.4; cursor: pointer;}
+a.control_prev:hover, a.control_next:hover{opacity: 1;}
+a.control_prev{border-radius: 0 2px 2px 0;}
+a.control_next{right: 0; border-radius: 2px 0 0 2px;}
+.slider_option{position: relative; margin: 10px auto; width: 160px; font-size: 18px;}
 
-.de_brochure .imgBox{position: relative; height: 70vh;}
+/* brochure section style */
+.de_brochure .imgBox{position: relative; height: 65vh;}
 .de_brochure .imgBox .img{width: 50%; height: auto; position: absolute; box-shadow: 1px 1px 3px #444; transition: all 0.5s;}
 .de_brochure .imgBox .img:nth-child(1){top: 0; left: 10%;}
 .de_brochure .imgBox .img:nth-child(2){top: 5%; right: 5%;}
@@ -40,25 +55,14 @@
 .de_brochure .imgBox .img:hover{z-index: 100; width: 85%;}
 .de_brochure .imgBox .img:hover.hoverBlur{display: block; z-index: 50;}
 
-/* .pop .imgBox{height: 70vh;}
-.zoom {display:inline-block; position: relative; height: 100%;}
-.zoom img {display: block; height: 100%;} */
+/* pop section style */
+.section.pop{margin-bottom: 70px;}
+.pop .imgBox{height: 65vh;}
+.zoom {display:inline-block; position: relative; height: 100%; margin-right: 15%;}
+.zoom img {display: block; height: 100%;}
+.magnify{border-radius: 50%; border: 2px solid black;position: absolute;z-index: 20;background-repeat: no-repeat; background-color: white;box-shadow: inset 0 0 20px rgba(0,0,0,.5); display: none;cursor: none;}
 
-.img_producto_container {
-  width: auto;
-  height: 70vh;
-  position: relative;
-  overflow: hidden;
-  cursor: zoom-in;
-}
-.img_producto {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  transition: transform 0.5s ease-out;
-}
+.viewMore{width: 15%; height: 40px; outline: 0;  border: 1px solid #333; position:absolute; right: 0; top:15%; color: #333; text-align: left; padding: 10px 20px; border-right: 0; text-transform: uppercase; transition: all 0.5s; position: fixed; font-family: 'Roboto';line-height: 1.5; display: inline-flex;}
+.viewMore i{padding-left:10px; font-size: 18px; color: #333; }
+.viewMore:hover{background: #333; color: #fff;width: 20%;}
+.viewMore:hover i{color: #fff;}

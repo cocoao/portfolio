@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NA_HYEJEONG</title>
+  <!-- favicon link -->
+  <link rel="icon" href="/na_pf/img/favicon_na.ico">
+  <link rel="apple-touch-icon" href="/na_pf/img/favicon_na.ico">
+
   <!-- font awesome font link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -22,13 +26,13 @@
 
   <!-- plugin link -->
   <link rel="stylesheet" type="text/css" href="/na_pf/plugin/bookblock.css" />
-  <script src="/na_pf/plugin/modernizr.custom.js"></script>
-  <script src="/na_pf/plugin/jquery.bookblock.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-zoom/1.7.20/jquery.zoom.min.js"></script>
+  <link rel="stylesheet" href="/na_pf/plugin/fullpage.css">
+  <script src="/na_pf/plugin/fullpage.js"></script>
 </head>
 <body>
   <?php include $_SERVER['DOCUMENT_ROOT'].'/na_pf/include/header.php'?>
-    <div class="leaflet section">
+  <div id="fullpage" class="design">
+    <div class="leaflet section" data-anchor="1st">
       <div class="contents-wrap clear dePage">
         <section class="de_leaflet clear">
           <div class="txtBox clear">
@@ -65,9 +69,9 @@
       </div>
     </div> <!-- end of leaflet -->
 
-    <div class="cardnews section">
+    <div class="cardnews section" data-anchor="2st">
       <div class="contents-wrap clear dePage">
-        <section class="de_leaflet clear">
+        <section class="de_cardnews clear">
           <div class="txtBox clear">
             <div class="title">
               <hr>
@@ -90,12 +94,55 @@
             <div class="frame">
               <img src="/na_pf/img/frame_ipad.png" alt="frame">
             </div>
+            <div id="deSlider">
+              <a class="control_next">></a>
+              <a class="control_prev"><</a>
+              <ul>
+                <li>
+                  <img src="/na_pf/img/de/de_card_01_01.jpg" alt="cardnews_01">
+                </li>
+                <li>
+                  <img src="/na_pf/img/de/de_card_01_02.jpg" alt="cardnews_02">
+                </li>
+                <li>
+                  <img src="/na_pf/img/de/de_card_01_03.jpg" alt="cardnews_03">
+                </li>
+                <li>
+                  <img src="/na_pf/img/de/de_card_01_04.jpg" alt="cardnews_04">
+                </li>
+                <li>
+                  <img src="/na_pf/img/de/de_card_01_05.jpg" alt="cardnews_05">
+                </li>
+                <li>
+                  <img src="/na_pf/img/de/de_card_01_06.jpg" alt="cardnews_06">
+                </li>
+                <li>
+                  <img src="/na_pf/img/de/de_card_01_07.jpg" alt="cardnews_07">
+                </li>
+                <li>
+                  <img src="/na_pf/img/de/de_card_01_08.jpg" alt="cardnews_08">
+                </li>
+                <li>
+                  <img src="/na_pf/img/de/de_card_01_09.jpg" alt="cardnews_09">
+                </li>
+                <li>
+                  <img src="/na_pf/img/de/de_card_01_10.jpg" alt="cardnews_10">
+                </li>
+                <li>
+                  <img src="/na_pf/img/de/de_card_01_11.jpg" alt="cardnews_11">
+                </li>
+                <li>
+                  <img src="/na_pf/img/de/de_card_01_12.jpg" alt="cardnews_12">
+                </li>
+              </ul>  
+            </div>
+            <div class="slideBg"></div>
           </div>
         </section>
       </div>
     </div> <!-- end of cardnews -->
 
-    <div class="brochure section">
+    <div class="brochure section" data-anchor="3st">
       <div class="contents-wrap clear dePage">
         <section class="de_brochure clear">
           <div class="txtBox clear">
@@ -132,7 +179,7 @@
       </div>
     </div> <!-- end of brochure -->
 
-    <div class="pop section">
+    <div class="pop section" data-anchor="4st">
       <div class="contents-wrap clear dePage">
         <section class="de_pop clear">
           <div class="txtBox clear">
@@ -151,25 +198,17 @@
             </div>
           </div>
           <div class="imgBox">
-            <!-- <div class="zoom" id="produto">
+            <div class="zoom" id="produto">
               <img src="/na_pf/img/de/de_pop_01_01.png" alt="pop_img_01">
-            </div> -->
-
-            <div class="img_producto_container" data-scale="1.6">
-            <a
-              class="dslc-lightbox-image img_producto"
-              src="/na_pf/img/de/de_pop_01_01.png"
-              target="_self"
-              style="background-image:url('/na_pf/img/de/de_pop_01_01.png')"
-            >
-            </a>
-          </div>
-
+            </div>
           </div>
         </section>
       </div>
     </div> <!-- end of brochure -->
-
+</div>
+  <button class="viewMore" onclick="location.href='/na_pf/pages/more.php'">View More
+    <i class="fa fa-angle-double-right"></i>
+  </button>
   <div class="copyOut">
     <p>COPYRIGHTⓒ 2021 BY NA</p>
   </div>

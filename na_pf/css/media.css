@@ -29,6 +29,12 @@
   .leftTxtBox .pfBtns,.rightTxtBox .pfBtns{bottom: 0;}
   .leftImgM{display: none;}
 
+  /* design page */
+  .imgBox{width: 90%;}
+  #deSlider ul li{width: 30vw;}
+  .de_brochure .imgBox{height: 55vh;}
+  .de_brochure .imgBox .img:hover{width: 90%;}
+
   /* more page */
   .mo_imgView{width: 100%;}
   .moBtns{flex-wrap: wrap;}
@@ -77,6 +83,20 @@
   .rightImgBox{width: 80%;}
   .leftImgBox{width: 100%;}
 
+  /* design page */
+  .design section{height: 70vh; display: flex; flex-direction: column; justify-content: space-around;}
+  .imgBox{width: 100%;}
+  .coverImgBox .cover{width: 30%;}
+  .coverImgBox .cover:hover{width: 35%;}
+
+  #deSlider ul li{width: 30vw;}
+  .design section.de_brochure{height: 85vh;}
+  .de_brochure .imgBox{height: 55vh;}
+  .de_brochure .imgBox .img:hover{width: 90%;}
+
+  .viewMore{width: 20%;}
+  .viewMore:hover{width: 25%;}
+
   /* more page */
   .moImgBox, .box-sizer{width: 50%;}
 }
@@ -114,6 +134,18 @@
   .rightImgBox{width: 100%;}
   .leftImgBox .frame{width: 100%;}
   .pfBtns{width: 60%;}
+
+  /* design page */
+  .design .desc{width:100%}
+  .viewMore{top:85%; font-size: 12px; width: 25%;}
+  .viewMore:hover{width: 30%;}
+  .coverImgBox{align-items: flex-end; height: 35vh;}
+  .coverImgBox .cover img:hover{width: 100%;}
+  #deSlider{margin-bottom: 0.5vh;}
+  #deSlider ul li{width: 34vw;}
+  .frame{width: 90%;}
+  .slideBg{width: 80%;}
+  .de_brochure .imgBox{width: 110%; margin-left: -10px;}
 }
 
 @media screen and (max-width : 600px){
@@ -129,6 +161,7 @@
   .histTxt .dot{width: 3%;}
 
   .about section.ab_skill{margin-top: 70px;}
+  .skillSection .roundBox>p{font-size: 14px; transform: translateX(-40%);}
   .ab_content_sk{transform: translateX(-60%);}
 
   .about section.ab_contact{padding-top: 60px;}
@@ -147,6 +180,19 @@
   .title hr{display: none;}
   .pu_dbProject, .pu_apiProject, .pu_renProject, .pu_pieProject, .pu_planProject{padding: 25% 10%;}
 
+  /* design page */
+  .pop .imgBox{height: 50vh;}
+  .zoom{margin: 0;}
+  .viewMore{top: 90%;}
+  .de_brochure .imgBox{width: 135%; margin-left: -45px;}
+  #deSlider ul li{width: 32vw;}
+  .frame{width: 100%;}
+  .slideBg{width: 90%;}
+  .de_brochure .imgBox .img:nth-child(2){top: 10%;}
+  .de_brochure .imgBox .img:nth-child(4){bottom: 10%;}
+  .viewMore{width: 30%;}
+  .viewMore:hover{width: 35%;}
+
   /* more page */
   .moImgBox, .box-sizer{width: 100%;}
   .moBtns button{font-size: 12px;}
@@ -155,7 +201,7 @@
 
 @media screen and (max-width : 480px){
   /* main page */
-  .slides, .slides .slide-box, .slides .slide-box .slide{height: 40vh;}
+  .slides, .slides .slide-box, .slides .slide-box .slide{height: 35vh;}
   .slides{top: 50px;}
   .slides .slide span{padding: 20px; font-size: 16px; display: none;}
   .slides .slide.active span{display: flex;}
@@ -177,7 +223,7 @@
   .nameBox h3 p{display: inline;}
   .nameBox>p{display: none;}
 
-  .txtBoxes{height: 50vh;}
+  .txtBoxes{height: 55vh;}
   .txtBoxes .txtBox{width: 100%;}
   .txtBoxes .txtBox .indexTxt{padding: 15px 0 0 0; width: 100%;}
   .txtBoxes .txtBox .indexTxt:nth-child(1){margin-top: 20px;}
@@ -206,10 +252,10 @@
   .navBox .copy{display: none;}
   .copyOut{position: relative; bottom: 0; left: 0px; border-top: 1px solid #ddd; text-align: center; padding: 10px 0; width: 100%; display: block;}
 
-  .about section,.about section.ab_skill{margin: 100px 30px 0;}
-  section{padding: 100px 30px 0;}
+  .about section,.about section.ab_skill{margin: 100px 10% 0;}
+  section{padding: 100px 30px 0 30px; }
   .ab_intro{height: 45vh;}
-  .ab_content_sk{transform: translateX(-50%);}
+  .ab_content_sk{transform: translateX(-50%); width: 80%;}
   .ab_content_in .img{height: 65vh;}
   .ab_content_in .img img{width: 175%; margin-top: 45%;}
   .ab_content_in .text{padding-top: 46%; width: 84%; margin: 0 auto; margin-right: 21px;}
@@ -220,13 +266,40 @@
   .histTxt .histName{width: 100%; padding-left: 40px;}
   .histTxt .dot{position: absolute; width: 5%;}
   .contacBtns{padding-top: 5px; margin: 0 auto 25px;}
-  .skillSection .roundBox>p{font-size: 14px; transform: translateX(-40%);}
-  
 
+  .skillSection .roundBox .hover{display: flex; opacity: 1;}
+  .skillSection .roundBox .hover .percentBg{opacity: 1;}
+  .skillSection .roundBox.htmlSkill .percentBg{width: 90%;}
+  .skillSection .roundBox.cssSkill .percentBg{width: 90%;}
+  .skillSection .roundBox.jsSkill .percentBg{width: 80%;}
+  .skillSection .roundBox.phpSkill .percentBg{width: 90%;}
+  .skillSection .roundBox.sqlSkill .percentBg{width: 80%;}
+  .skillSection .roundBox.psSkill .percentBg{width: 100%;}
+  .skillSection .roundBox.aiSkill .percentBg{width: 100%;}
+  .skillSection .roundBox.idSkill .percentBg{width: 100%;}
+  
   /* publishing page */
   .pfBtns{width: 75%;}
   .pfBtns a{height: 25px;}
   .desc{padding-top: 0;}
   .desc p{font-size: 12px;}
+  .leftImgBox .imgBox{height: 82%; margin: 3.4% 0;}
+  .pu_dbProject, .pu_apiProject, .pu_renProject, .pu_pieProject, .pu_planProject{height: 87vh; padding: 17% 10%;}
+  .pu_planProject .rightTxtBox .pfBtns{justify-content: center;}
 
+  /* design page */
+  .design section{padding: 40px;}
+  .viewMore{padding: 5px 10px; width: 35%; height: 30px;}
+  #deSlider ul li{width: 50vw;}
+  .de_brochure .imgBox{width: 110%; margin-left:0; height: 40vh;}
+  .de_brochure .imgBox .img:nth-child(2){top: 20%;}
+  .de_brochure .imgBox .img:nth-child(4){bottom: 20%;}
+  .pop .imgBox{height: 45vh; margin: 20px auto;}
+  .cardnews .frame{height: auto;}
+  .cardnews .imgBox{height: auto;}
+  .slideBg{height: 95%;}
+
+  .moBtns button{padding: 0; font-size: 11px;}
+  .lb-data .lb-close{width: 20px; height: 20px; background-size: contain;}
+  .lb-nav a.lb-prev,.lb-nav a.lb-next{width: 25px;background-size: contain;}
 }
