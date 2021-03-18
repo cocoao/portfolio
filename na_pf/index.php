@@ -96,22 +96,22 @@
           </div>
         </div>
         <div class="contents clear main-de">
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/design.php#1'">
             <p>Products leaflet</p>
             <hr>
             <h3>SAMSUNG <p>LIFE INSURANCE</p></h3>
           </div>
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/design.php#2'">
             <p>Card newsa</p>
             <hr>
             <h3>SAMSUNG <p>LIFE INSURANCE</p></h3>
           </div>
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/design.php#3'">
             <p>Brochure</p>
             <hr>
             <h3>K FASHION AUDITION</h3>
           </div>
-          <div class="indexTxt">
+          <div class="indexTxt" onclick="location.href='/na_pf/pages/design.php#4'">
             <p>POP advertisement</p>
             <hr>
             <h3>MAGIC</h3>

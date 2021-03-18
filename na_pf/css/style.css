@@ -7,7 +7,7 @@
 .slides .slide:nth-child(3){width:10%; left:80%;}
 .slides .slide:nth-child(4){width:10%; left:90%;}
 /* .slides .slide:last-child{animation:slideLeft 0.1s 1} */
-.slides .slide img{position: absolute; left: 50%; top: 0; transform: translateX(-50%);height: 100%; }
+.slides .slide img{position: absolute; left: 50%; top: 0; transform: translateX(-50%);height: 100%;}
 
 .slides .slide span{position: absolute; bottom: 0; padding: 30px 50px; width: 100%; font-size: 40px; color: #333;display: flex;}
 .slides .slide i{position: absolute; top: 0; right: 0; padding: 30px; display: none; color: #333; font-size: 40px; z-index: 1; font-weight: 400; animation: slideTxtin 0.2s 1; }

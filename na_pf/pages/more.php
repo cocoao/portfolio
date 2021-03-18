@@ -55,11 +55,11 @@
           <div class="moImgBox edit">
             <div class="moCon">
               <div class="hover">
-                <a href="/na_pf/img/work/E_SS_LE_01_01.jpg" data-lightbox="E_SS_LE_01" data-title="SAMSUNG LIFE INSURANCE | Products Leaflet | 2020">View</a>
-                <a href="/na_pf/img/work/E_SS_LE_01_02.jpg" data-lightbox="E_SS_LE_01" data-title="SAMSUNG LIFE INSURANCE | Products Leaflet | 2020"></a>
-                <a href="/na_pf/img/work/E_SS_LE_01_03.jpg" data-lightbox="E_SS_LE_01" data-title="SAMSUNG LIFE INSURANCE | Products Leaflet | 2020"></a>
+                <a href="/na_pf/img/work/E_01_01.jpg" data-lightbox="E_01" data-title="SAMSUNG LIFE INSURANCE | Products Leaflet | 2020">View</a>
+                <a href="/na_pf/img/work/E_01_02.jpg" data-lightbox="E_01" data-title="SAMSUNG LIFE INSURANCE | Products Leaflet | 2020"></a>
+                <a href="/na_pf/img/work/E_01_03.jpg" data-lightbox="E_01" data-title="SAMSUNG LIFE INSURANCE | Products Leaflet | 2020"></a>
               </div>
-              <img src="/na_pf/img/work/E_SS_LE_01_01.jpg" alt="work_leaflet.jpg">
+              <img src="/na_pf/img/work/E_01_01.jpg" alt="work_edit">
               <div class="txtBox">
                 <h3>SAMSUNG LIFE INSURANCE</h3>
                 <p>Products Leaflet | 2020</p>
@@ -77,13 +77,13 @@
               </div>
             </div>
           </div>
-          <div class="moImgBox ad">
-          <div class="moCon">
-            <div class="hover">
-              <a href="/na_pf/img/work/E_SS_LE_02_01.jpg" data-lightbox="E_SS_LE_02" data-title="SAMSUNG LIFE INSURANCE | Monthly DM Leaflet | 2019">View</a>
-              <a href="/na_pf/img/work/E_SS_LE_02_02.jpg" data-lightbox="E_SS_LE_02" data-title="SAMSUNG LIFE INSURANCE | Monthly DM Leaflet | 2019"></a>
-            </div>
-            <img src="/na_pf/img/work/E_SS_LE_02_01.jpg" alt="work_leaflet.jpg">
+          <div class="moImgBox edit">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/E_02_01.jpg" data-lightbox="E_02" data-title="SAMSUNG LIFE INSURANCE | Monthly DM Leaflet | 2019">View</a>
+                <a href="/na_pf/img/work/E_02_02.jpg" data-lightbox="E_02" data-title="SAMSUNG LIFE INSURANCE | Monthly DM Leaflet | 2019"></a>
+              </div>
+              <img src="/na_pf/img/work/E_02_01.jpg" alt="work_edit">
               <div class="txtBox">
                 <h3>SAMSUNG LIFE INSURANCE</h3>
                 <p>Monthly DM Leaflet | 2019</p>
@@ -101,18 +101,38 @@
               </div>
             </div>
           </div>
-          <div class="moImgBox edit">
-          <div class="moCon">
-            <div class="hover">
-              <a href="/na_pf/img/work/E_ETC_CA_01_01.jpg" data-lightbox="E_ETC_CA_01" data-title="K FASHION AUDITION | Brochure | 2019">View</a>
-            </div>
-            <img src="/na_pf/img/work/E_ETC_CA_01_01.jpg" alt="work_catalog.jpg">
+          <div class="moImgBox etc">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/ETC_01_01.jpg" data-lightbox="ETC_01" data-title="THE ROUND. THE ONE | Namecard & Menu | 2020">View</a>
+                <a href="/na_pf/img/work/ETC_01_02.jpg" data-lightbox="ETC_01" data-title="THE ROUND. THE ONE | Namecard & Menu | 2020"></a>
+                <a href="/na_pf/img/work/ETC_01_03.jpg" data-lightbox="ETC_01" data-title="THE ROUND. THE ONE | Namecard & Menu | 2020"></a>
+              </div>
+              <img src="/na_pf/img/work/ETC_01_01.jpg" alt="work_etc">
               <div class="txtBox">
-                <h3>K FASHION AUDITION</h3>
-                <p>Brochure | 2019</p>
+                <h3>THE ROUND. THE ONE</h3>
+                <p>Namecard & Menu | 2020</p>
+                <div class="useBox">
+                <div class="icon">
+                  <img src="/na_pf/img/skill_id.png" alt="indesign">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="moImgBox webedit edit">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/WE_01_01.jpg" data-lightbox="WE_01" data-title="SAMSUNG LIFE INSURANCE | Millennial Card News | 2020">View</a>
+                <a href="/na_pf/img/work/WE_01_02.jpg" data-lightbox="WE_01" data-title="SAMSUNG LIFE INSURANCE | Millennial Card News | 2020"></a>
+              </div>
+              <img src="/na_pf/img/work/WE_01_02.jpg" alt="work_web_edit">
+              <div class="txtBox">
+                <h3>SAMSUNG LIFE INSURANCE</h3>
+                <p>Millennial Card News | 2020</p>
                 <div class="useBox">
                   <div class="icon">
-                  <img src="/na_pf/img/skill_ps.png" alt="photoshop">
+                  <img src="/na_pf/img/skill_id.png" alt="indesign">
                   </div>
                   <div class="icon">
                   <img src="/na_pf/img/skill_ai.png" alt="illustrator">
@@ -121,16 +141,112 @@
               </div>
             </div>
           </div>
-          <div class="moImgBox ad">
-          <div class="moCon">
-            <div class="hover">
-              <a href="/na_pf/img/work/E_SS_LE_02_01.jpg" data-lightbox="E_SS_LE_02" data-title="SAMSUNG LIFE INSURANCE | Monthly DM Leaflet | 2019">View</a>
-              <a href="/na_pf/img/work/E_SS_LE_02_02.jpg" data-lightbox="E_SS_LE_02" data-title="SAMSUNG LIFE INSURANCE | Monthly DM Leaflet | 2019"></a>
+          <div class="moImgBox edit">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/E_05_01.jpg" data-lightbox="E_05" data-title="K FASHION AUDITION | Brochure | 2019">View</a>
+              </div>
+              <img src="/na_pf/img/work/E_05_01.jpg" alt="work_edit">
+              <div class="txtBox">
+                <h3>K FASHION AUDITION</h3>
+                <p>Brochure | 2019</p>
+                <div class="useBox">
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ps.png" alt="photoshop">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_id.png" alt="indesign">
+                  </div>
+                </div>
+              </div>
             </div>
-            <img src="/na_pf/img/work/E_SS_LE_02_01.jpg" alt="work_leaflet.jpg">
+          </div>
+          <div class="moImgBox ad">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/A_02_01.jpg" data-lightbox="A_02" data-title="WATSONS | POP advertisement | 2016">View</a>
+                <a href="/na_pf/img/work/A_02_02.jpg" data-lightbox="A_02" data-title="WATSONS | POP advertisement | 2016"></a>
+              </div>
+              <img src="/na_pf/img/work/A_02_01.jpg" alt="work_ad">
+              <div class="txtBox">
+                <h3>WATSONS</h3>
+                <p>POP advertisement | 2016</p>
+                <div class="useBox">
+                  <div class="icon">
+                   <img src="/na_pf/img/skill_ai.png" alt="illustrator">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="moImgBox edit">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/E_03_01.jpg" data-lightbox="E_03" data-title="SAMSUNG LIFE INSURANCE | Millennial magazine | 2019">View</a>
+                <a href="/na_pf/img/work/E_03_02.jpg" data-lightbox="E_03" data-title="SAMSUNG LIFE INSURANCE | Millennial magazine | 2019"></a>
+              </div>
+              <img src="/na_pf/img/work/E_03_01.jpg" alt="work_edit">
               <div class="txtBox">
                 <h3>SAMSUNG LIFE INSURANCE</h3>
-                <p>Monthly DM Leaflet | 2019</p>
+                <p>Millennial magazine | 2019</p>
+                <div class="useBox">
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_id.png" alt="indesign">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ai.png" alt="illustrator">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="moImgBox etc">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/ETC_02_01.jpg" data-lightbox="ETC_02" data-title="Andus chain | Logo | 2018">View</a>
+              </div>
+              <img src="/na_pf/img/work/ETC_02_01.jpg" alt="work_etc">
+              <div class="txtBox">
+                <h3>Andus chain</h3>
+                <p>Logo | 2018</p>
+                <div class="useBox">
+                <div class="icon">
+                <img src="/na_pf/img/skill_ai.png" alt="illustrator">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="moImgBox webedit edit">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/WE_02_01.jpg" data-lightbox="WE_02" data-title="MY MANAGER | Card News | 2020">View</a>
+              </div>
+              <img src="/na_pf/img/work/WE_02_01.jpg" alt="work_web_edit">
+              <div class="txtBox">
+                <h3>MY MANAGER</h3>
+                <p>Card News | 2020</p>
+                <div class="useBox">
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_id.png" alt="indesign">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ai.png" alt="illustrator">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="moImgBox edit">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/E_04_01.jpg" data-lightbox="E_04" data-title="SAMSUNG LIFE INSURANCE | Monthly DM Leaflet | 2020">View</a>
+                <a href="/na_pf/img/work/E_04_02.jpg" data-lightbox="E_04" data-title="SAMSUNG LIFE INSURANCE | Monthly DM Leaflet | 2020"></a>
+              </div>
+              <img src="/na_pf/img/work/E_04_01.jpg" alt="work_edit">
+              <div class="txtBox">
+                <h3>SAMSUNG LIFE INSURANCE</h3>
+                <p>Monthly DM Leaflet | 2020</p>
                 <div class="useBox">
                   <div class="icon">
                   <img src="/na_pf/img/skill_id.png" alt="indesign">
@@ -145,15 +261,78 @@
               </div>
             </div>
           </div>
-          <div class="moImgBox edit">
-          <div class="moCon">
-            <div class="hover">
-              <a href="/na_pf/img/work/E_ETC_CA_01_01.jpg" data-lightbox="E_ETC_CA_01" data-title="K FASHION AUDITION | Brochure | 2019">View</a>
-            </div>
-            <img src="/na_pf/img/work/E_ETC_CA_01_01.jpg" alt="work_catalog.jpg">
+          <div class="moImgBox ad">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/A_03_01.jpg" data-lightbox="A_03" data-title="NONGHYUP LIFE INSURANCE | Poster | 2017">View</a>
+              </div>
+              <img src="/na_pf/img/work/A_03_01.jpg" alt="work_ad">
               <div class="txtBox">
-                <h3>K FASHION AUDITION</h3>
-                <p>Brochure | 2019</p>
+                <h3>NONGHYUP LIFE INSURANCE</h3>
+                <p>Poster | 2017</p>
+                <div class="useBox">
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_id.png" alt="indesign">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ps.png" alt="photoshop">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ai.png" alt="illustrator">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="moImgBox etc">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/ETC_03_01.jpg" data-lightbox="ETC_03" data-title="SUPER MOON DESIGN | Logo | 2020">View</a>
+              </div>
+              <img src="/na_pf/img/work/ETC_03_01.jpg" alt="work_etc">
+              <div class="txtBox">
+                <h3>SUPER MOON DESIGN</h3>
+                <p>Logo | 2020</p>
+                <div class="useBox">
+                <div class="icon">
+                <img src="/na_pf/img/skill_ai.png" alt="illustrator">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="moImgBox edit">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/E_06_01.jpg" data-lightbox="E_06" data-title="MAGIC | Catalog | 2015">View</a>
+              </div>
+              <img src="/na_pf/img/work/E_06_01.jpg" alt="work_edit">
+              <div class="txtBox">
+                <h3>MAGIC</h3>
+                <p>Catalog | 2015</p>
+                <div class="useBox">
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_id.png" alt="indesign">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ps.png" alt="photoshop">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ai.png" alt="illustrator">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="moImgBox ad">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/A_01_01.jpg" data-lightbox="A_01" data-title="MAGIC | POP advertisement | 2015">View</a>
+              </div>
+              <img src="/na_pf/img/work/A_01_01.jpg" alt="work_ad">
+              <div class="txtBox">
+                <h3>MAGIC</h3>
+                <p>POP advertisement | 2015</p>
                 <div class="useBox">
                   <div class="icon">
                   <img src="/na_pf/img/skill_ps.png" alt="photoshop">
@@ -161,6 +340,24 @@
                   <div class="icon">
                   <img src="/na_pf/img/skill_ai.png" alt="illustrator">
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="moImgBox etc">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/ETC_04_01.jpg" data-lightbox="ETC_04" data-title="YUSEONG SPA.GYM | Logo | 2018">View</a>
+                <a href="/na_pf/img/work/ETC_04_02.jpg" data-lightbox="ETC_04" data-title="YUSEONG SPA.GYM | Logo | 2018"></a>
+              </div>
+              <img src="/na_pf/img/work/ETC_04_01.jpg" alt="work_etc">
+              <div class="txtBox">
+                <h3>YUSEONG SPA.GYM</h3>
+                <p>Logo | 2018</p>
+                <div class="useBox">
+                <div class="icon">
+                <img src="/na_pf/img/skill_ai.png" alt="illustrator">
+                </div>
                 </div>
               </div>
             </div>
