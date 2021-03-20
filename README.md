@@ -1,4 +1,5 @@
 # PORTFOLIO  [![LinkedIn badge](http://img.shields.io/badge/Portfolio-7462ff?style=flat?link=http://cocoao.dothome.co.kr/na_pf)](http://cocoao.dothome.co.kr/na_pf)
+![portfolio](https://user-images.githubusercontent.com/77706809/111859088-90ea6900-8981-11eb-90be-3b9dc12ca168.gif)
 <br>
 <br>
 
