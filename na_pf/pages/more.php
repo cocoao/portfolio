@@ -77,6 +77,42 @@
               </div>
             </div>
           </div>
+          <div class="moImgBox pub webedit">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/pub/P_space_main.png" data-lightbox="P_01" data-title="SPACE | DB project_Interior site | Main page">View</a>
+                <a href="/na_pf/img/pub/P_space_liv.png" data-lightbox="P_01" data-title="SPACE | DB project_Interior site | Works page"></a>
+                <a href="/na_pf/img/pub/P_space_qna.png" data-lightbox="P_01" data-title="SPACE | DB project_Interior site | Q&A page"></a>
+                <a href="/na_pf/img/pub/P_space_admin.png" data-lightbox="P_01" data-title="SPACE | DB project_Interior site | Admin page"></a>
+              </div>
+              <img src="/na_pf/img/pub/P_space_main_thumb.png" alt="work_pu">
+              <div class="txtBox">
+                <h3>SPACE</h3>
+                <p>DB project | 2021</p>
+                <div class="useBox">
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_html.png" alt="html">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_css.png" alt="css">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_js.png" alt="jquery">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_php.png" alt="php">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_sql.png" alt="mysql">
+                  </div>
+                  <p class="useLine"></p>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ps.png" alt="photoshop">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="moImgBox edit">
             <div class="moCon">
               <div class="hover">
@@ -96,6 +132,40 @@
                   </div>
                   <div class="icon">
                   <img src="/na_pf/img/skill_ai.png" alt="illustrator">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="moImgBox pub webedit">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/pub/P_cinema_main.png" data-lightbox="P_02" data-title="CINEMA NOW. | API project_Movie site | Main page">View</a>
+                <a href="/na_pf/img/pub/P_cinema_search.png" data-lightbox="P_02" data-title="CINEMA NOW. | API project_Movie site | Search page"></a>
+                <a href="/na_pf/img/pub/P_cinema_new.png" data-lightbox="P_02" data-title="CINEMA NOW. | API project_Movie site | New tab"></a>
+                <a href="/na_pf/img/pub/P_cinema_ganre.png" data-lightbox="P_02" data-title="CINEMA NOW. | API project_Movie site | Ganre tab"></a>
+                <a href="/na_pf/img/pub/P_cinema_detail.png" data-lightbox="P_02" data-title="CINEMA NOW. | API project_Movie site | Tab detail page"></a>
+              </div>
+              <img src="/na_pf/img/pub/P_cinema_main.png" alt="work_pu">
+              <div class="txtBox">
+                <h3>CINEMA NOW.</h3>
+                <p>API project | 2021</p>
+                <div class="useBox">
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_html.png" alt="html">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_css.png" alt="css">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_js.png" alt="jquery">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_php.png" alt="php">
+                  </div>
+                  <p class="useLine"></p>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ps.png" alt="photoshop">
                   </div>
                 </div>
               </div>
@@ -156,6 +226,41 @@
                   </div>
                   <div class="icon">
                   <img src="/na_pf/img/skill_id.png" alt="indesign">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="moImgBox pub webedit">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/pub/P_jomalone_main.png" data-lightbox="P_03" data-title="JOMALONE LONDON | Renewal project | Main page">View</a>
+                <a href="/na_pf/img/pub/P_jomalone_frangrance.png" data-lightbox="P_03" data-title="JOMALONE LONDON | Renewal project | frangrance page"></a>
+                <a href="/na_pf/img/pub/P_jomalone_nav.png" data-lightbox="P_03" data-title="JOMALONE LONDON | Renewal project | Main navigation"></a>
+              </div>
+              <img src="/na_pf/img/pub/P_jomalone_main_thumb.png" alt="work_pu">
+              <div class="txtBox">
+                <h3>JOMALONE LONDON</h3>
+                <p>Renewal project | 2021</p>
+                <div class="useBox">
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_html.png" alt="html">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_css.png" alt="css">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_js.png" alt="jquery">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_php.png" alt="php">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_sql.png" alt="mysql">
+                  </div>
+                  <p class="useLine"></p>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ps.png" alt="photoshop">
                   </div>
                 </div>
               </div>
@@ -261,6 +366,57 @@
               </div>
             </div>
           </div>
+          <div class="moImgBox pub webedit">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/pub/P_scehdule_main.png" data-lightbox="P_04" data-title="MY SCHEDULE | Pie chart project | Main page">View</a>
+                <a href="/na_pf/img/pub/P_scehdule_check.png" data-lightbox="P_04" data-title="MY SCHEDULE | Pie chart project | Check page"></a>
+                <a href="/na_pf/img/pub/P_scehdule_write.png" data-lightbox="P_04" data-title="MY SCHEDULE | Pie chart project | Write page"></a>
+              </div>
+              <img src="/na_pf/img/pub/P_scehdule_main.png" alt="work_pu">
+              <div class="txtBox">
+                <h3>MY SCHEDULE</h3>
+                <p>Pie chart project | 2021</p>
+                <div class="useBox">
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_html.png" alt="html">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_css.png" alt="css">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_js.png" alt="jquery">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_php.png" alt="php">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="moImgBox edit">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/work/E_07_01.jpg" data-lightbox="E_07" data-title="SAMSUNG LIFE INSURANCE | Heath lounge catalog | 2018">View</a>
+              </div>
+              <img src="/na_pf/img/work/E_07_01.jpg" alt="work_edit">
+              <div class="txtBox">
+                <h3>SAMSUNG LIFE INSURANCE</h3>
+                <p>Heath lounge catalog | 2018</p>
+                <div class="useBox">
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_id.png" alt="indesign">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ps.png" alt="photoshop">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ai.png" alt="illustrator">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="moImgBox ad">
             <div class="moCon">
               <div class="hover">
@@ -299,6 +455,44 @@
                 </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="moImgBox pub webedit">
+            <div class="moCon">
+              <div class="hover">
+                <a href="/na_pf/img/pub/P_burger_main.jpg" data-lightbox="P_05" data-title="BURGER'S | Planning project_burger brand | Main page">View</a>
+                <a href="/na_pf/img/pub/P_burger_is.jpg" data-lightbox="P_05" data-title="BURGER'S | Planning project_burger brand | Info page"></a>
+                <a href="/na_pf/img/pub/P_burger_how.jpg" data-lightbox="P_05" data-title="BURGER'S | Planning project_burger brand | How to page"></a>
+                <a href="/na_pf/img/pub/P_burger_recommand.jpg" data-lightbox="P_05" data-title="BURGER'S | Planning project_burger brand | Recommand page"></a>
+              </div>
+              <img src="/na_pf/img/pub/P_burger_main.jpg" alt="work_pu">
+              <div class="txtBox">
+                <h3>BURGER'S</h3>
+                <p>Planning project | 2021</p>
+                <div class="useBox">
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_html.png" alt="html">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_css.png" alt="css">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_js.png" alt="jquery">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_php.png" alt="php">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_sql.png" alt="mysql">
+                  </div>
+                  <p class="useLine"></p>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ps.png" alt="photoshop">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_ai.png" alt="illustrator">
+                  </div>
+                </div>
             </div>
           </div>
           <div class="moImgBox edit">

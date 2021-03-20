@@ -67,7 +67,7 @@
                 <div class="pfBtns">
                   <a href="http://cocoao.dothome.co.kr/space" target="_blank">Link</a>
                   <a href="https://github.com/cocoao/SPACE.git" target="_blank">Git</a>
-                  <a href="#">Report</a>
+                  <a href="/na_pf/img/db_space_report.pdf" target="_blank">Report</a>
                 </div>
               </div>
             </div>
@@ -123,7 +123,7 @@
                 <div class="pfBtns">
                   <a href="http://cocoao.dothome.co.kr/cinema" target="_blank">Link</a>
                   <a href="https://github.com/cocoao/API_movie.git" target="_blank">Git</a>
-                  <a href="/na_pf/img/db_space_report.pdf" target="_blank">Report</a>
+                  <a href="/na_pf/img/api_cinema_report.pdf" target="_blank">Report</a>
                 </div>
               </div>
             </div>
@@ -154,9 +154,6 @@
                   </div>
                   <div class="icon">
                   <img src="/na_pf/img/skill_php.png" alt="php">
-                  </div>
-                  <div class="icon">
-                  <img src="/na_pf/img/skill_sql.png" alt="mysql">
                   </div>
                   <p class="useLine"></p>
                   <div class="icon">
@@ -222,6 +219,9 @@
                   </div>
                   <div class="icon">
                   <img src="/na_pf/img/skill_php.png" alt="php">
+                  </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_sql.png" alt="mysql">
                   </div>
                 </div>
                 <div class="pfBtns">
