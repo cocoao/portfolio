@@ -1,5 +1,5 @@
 $(function(){
-
+  
   $(window).resize(function(){
     var frameHeight = $('#deSlider ul li').width();
     $('#deSlider ul li').css({height:frameHeight});
