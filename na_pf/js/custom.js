@@ -19,7 +19,6 @@ $(function(){
     $(".slide:nth-child(2)").animate({'width': '60%', 'left':0}, 500);
     $(".slide:nth-child(3)").animate({'width': '20%', 'left':'60%'}, 500);
     $(".slide:nth-child(4)").animate({'width': '10%', 'left':'80%'}, 500);
-    // $('.slides .slide:last-child').animate({'animation':'slideLeft 0.1s 1'})
 
     setTimeout(function(){
       $(".slide:first-child").clone().appendTo('.slide-box');
@@ -75,7 +74,6 @@ $(function(){
       $(".slide:nth-child(2)").animate({'width': '100%', 'left':'0'}, 500);
       $(".slide:nth-child(3)").animate({'width': '100%', 'left':'100%'}, 500);
       $(".slide:nth-child(4)").animate({'width': '100%', 'left':'200%'}, 500);
-      // $('.slides .slide:last-child').animate({'animation':'slideLeft 0.1s 1'})
   
       setTimeout(function(){
         $(".slide:first-child").clone().appendTo('.slide-box');

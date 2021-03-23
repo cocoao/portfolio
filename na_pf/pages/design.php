@@ -25,9 +25,9 @@
   <script src="/na_pf/js/pages_de.js"></script>
 
   <!-- plugin link -->
-  <link rel="stylesheet" type="text/css" href="/na_pf/plugin/bookblock.css" />
   <link rel="stylesheet" href="/na_pf/plugin/fullpage.css">
   <script src="/na_pf/plugin/fullpage.js"></script>
+  <script src="/na_pf/plugin/modernizr.2.5.3.min.js"></script>
 </head>
 <body>
   <?php include $_SERVER['DOCUMENT_ROOT'].'/na_pf/include/header.php'?>
@@ -58,12 +58,59 @@
           </div>
           <div class="imgBox">
             <div class="coverImgBox">
-              <div class="cover"><img src="/na_pf/img/de/de_leflet_01_01.jpg" alt="leflet_img_01"></div>
+              <div class="cover leaflet-1"><img src="/na_pf/img/de/de_leflet_01_01.jpg" alt="leflet_img_01"></div>
               <div class="cover"><img src="/na_pf/img/de/de_leflet_01_02.jpg" alt="leflet_img_02"></div>
               <div class="cover"><img src="/na_pf/img/de/de_leflet_01_03.jpg" alt="leflet_img_03"></div>
               <div class="cover"><img src="/na_pf/img/de/de_leflet_01_04.jpg" alt="leflet_img_04"></div>
-              <div class="cover"><img src="/na_pf/img/de/de_leflet_01_05.jpg" alt="leflet_img_05"></div>
-            </div>  
+              <div class="cover leaflet-2"><img src="/na_pf/img/de/de_leflet_01_05.jpg" alt="leflet_img_05"></div>
+            </div> 
+          </div>
+
+          <div id="myModal" class="modal leaflet-1">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="flipbook-viewport">
+                <div class="container">
+                  <div class="flipbook">
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_01.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_02.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_03.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_04.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_05.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_06.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_07.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_08.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_09.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_10.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_11.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_12.jpg)"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="myModal" class="modal leaflet-2">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="flipbook-viewport">
+                <div class="container">
+                  <div class="flipbook">
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_01.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_02.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_03.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_04.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_05.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_06.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_07.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_08.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_09.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_10.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_11.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_12.jpg)"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>

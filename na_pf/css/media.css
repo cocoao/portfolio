@@ -62,6 +62,8 @@
   .txtBoxes .nav hr{border: 0; border-bottom: 1px solid #fff;}
   .btns{right: 10px; bottom: 30px;}
   .btns button{width: 30px; height: 30px; font-size: 28px;}
+
+  .navBox .pfBtns.pfBtns a{width: 60%;margin-bottom: 5px;}
   
   /* about page */
   .navBox{padding: 30px 15px;}

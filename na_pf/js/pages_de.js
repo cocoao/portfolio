@@ -1,5 +1,35 @@
 $(function(){
+
+  $('.cover.leaflet-1').click(function(){
+    $(".modal.leaflet-1").css({'display':'block'});
+  });
+  $('.cover.leaflet-2').click(function(){
+    $(".modal.leaflet-2").css({'display':'block'});
+  });
+
+  $('.close').click(function(){
+    $(".modal").css({'display':'none'});
+  });
+
+  function loadApp() {
+    $('.flipbook').turn({
+      width:600,
+      height:630,
+      elevation: 50,
+      gradients: true,
+      autoCenter: true
+      });
+    }
+  yepnope({
+    test : Modernizr.csstransforms,
+    yep: ['/na_pf/plugin/turn.js'],
+    nope: ['/na_pf/plugin/turn.html4.min.js'],
+    both: ['/na_pf/css/pages_de.css'],
+    complete: loadApp
+  });
   
+
+
   $(window).resize(function(){
     var frameHeight = $('#deSlider ul li').width();
     $('#deSlider ul li').css({height:frameHeight});
