@@ -369,11 +369,11 @@
           <div class="moImgBox pub webedit">
             <div class="moCon">
               <div class="hover">
-                <a href="/na_pf/img/pub/P_scehdule_main.png" data-lightbox="P_04" data-title="MY SCHEDULE | Pie chart project | Main page">View</a>
-                <a href="/na_pf/img/pub/P_scehdule_check.png" data-lightbox="P_04" data-title="MY SCHEDULE | Pie chart project | Check page"></a>
-                <a href="/na_pf/img/pub/P_scehdule_write.png" data-lightbox="P_04" data-title="MY SCHEDULE | Pie chart project | Write page"></a>
+                <a href="/na_pf/img/pub/P_schedule_main.png" data-lightbox="P_04" data-title="MY SCHEDULE | Pie chart project | Main page">View</a>
+                <a href="/na_pf/img/pub/P_schedule_check.png" data-lightbox="P_04" data-title="MY SCHEDULE | Pie chart project | Check page"></a>
+                <a href="/na_pf/img/pub/P_schedule_write.png" data-lightbox="P_04" data-title="MY SCHEDULE | Pie chart project | Write page"></a>
               </div>
-              <img src="/na_pf/img/pub/P_scehdule_main.png" alt="work_pu">
+              <img src="/na_pf/img/pub/P_schedule_main.png" alt="work_pu">
               <div class="txtBox">
                 <h3>MY SCHEDULE</h3>
                 <p>Pie chart project | 2021</p>

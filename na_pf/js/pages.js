@@ -56,7 +56,8 @@ $(function(){
 $(document).ready(function(){
   $('#fullpage').fullpage({
     autoScrolling:true,
-    scrollHorizontally:true
+    scrollHorizontally:true,
+    bigSectionsDestination: top
   });
 });
 

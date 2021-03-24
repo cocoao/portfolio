@@ -1,33 +1,90 @@
 $(function(){
 
+  $(window).resize(function(){
+    const windWid = $(window).width();
+    if(windWid > 1200){
+      document.location.reload()
+      flipB() 
+    }
+    if(windWid <= 1200 & windWid > 600){
+      document.location.reload()
+      flipB()
+    }
+    if(windWid <= 600 & windWid > 480){
+      document.location.reload()
+      flipB()
+    }
+    if(windWid <= 480){
+      document.location.reload()
+      $('.modal').off();
+    }
+  });
+  flipB()
+  const windWid = $(window).width();
+  if(windWid <= 480){
+    $('.cover.leaflet-1').off();
+    $('.cover.leaflet-2').off();
+  }
+
+
+  function flipB(){
   $('.cover.leaflet-1').click(function(){
     $(".modal.leaflet-1").css({'display':'block'});
+    const windWid = $(window).width();
+    if(windWid > 1200){
+    loadApp('.flipbook','600','630');
+    }
+    if(windWid <= 1200 & windWid > 600){
+      loadApp('.flipbook','400','420');
+      }
+    if(windWid <= 600 & windWid > 480){
+      loadApp('.flipbook','300','315');
+      }
+    if(windWid <= 480){
+      loadApp('.flipbook','200','210');
+      }
   });
+
+
   $('.cover.leaflet-2').click(function(){
     $(".modal.leaflet-2").css({'display':'block'});
+    const windWid = $(window).width();
+    if(windWid > 1200){
+    loadApp('.flipbook-2','600','630');
+    }
+    if(windWid <= 1200 & windWid > 600){
+      loadApp('.flipbook-2','400','420');
+      }
+    if(windWid <= 600 & windWid > 480){
+      loadApp('.flipbook-2','300','315');
+      }
+    if(windWid <= 480){
+      loadApp('.flipbook-2','200','210');
+      }
   });
+  }
 
   $('.close').click(function(){
     $(".modal").css({'display':'none'});
+    document.location.reload()
   });
 
-  function loadApp() {
-    $('.flipbook').turn({
-      width:600,
-      height:630,
+
+  function loadApp(book,b_wid,b_hei) {
+    $(book).turn({
+      width:b_wid,
+      height:b_hei,
       elevation: 50,
       gradients: true,
       autoCenter: true
-      });
+    });
     }
   yepnope({
     test : Modernizr.csstransforms,
     yep: ['/na_pf/plugin/turn.js'],
     nope: ['/na_pf/plugin/turn.html4.min.js'],
-    both: ['/na_pf/css/pages_de.css'],
     complete: loadApp
   });
-  
 
 
   $(window).resize(function(){
@@ -88,6 +145,7 @@ $(function(){
     $('#fullpage').fullpage({
       autoScrolling:true,
       scrollHorizontally:true,
+      bigSectionsDestination: top,
       anchors:['1st', '2st', '3st', '4st'],
       afterLoad:function(anchorLink, index){
         if(anchorLink == '4st'){

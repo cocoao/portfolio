@@ -22,3 +22,13 @@
   100%{top:0; opacity: 1;}
 }
 
+@keyframes dash {
+  0% {stroke-dashoffset: 400%; stroke:#B7D322}
+  50% {stroke-dashoffset: 200%; stroke:#B7D322}
+  100% {stroke-dashoffset: 0;stroke:#EA6390}
+}
+@keyframes dash_2 {
+  0% {stroke-dashoffset: 400%; stroke:#E73962}
+  50% {stroke-dashoffset: 200%; stroke:#E73962}
+  100% {stroke-dashoffset: 0;stroke:#6923D8}
+}

@@ -58,15 +58,25 @@
           </div>
           <div class="imgBox">
             <div class="coverImgBox">
-              <div class="cover leaflet-1"><img src="/na_pf/img/de/de_leflet_01_01.jpg" alt="leflet_img_01"></div>
+              <div class="cover leaflet-1">
+                <svg>
+                  <rect x="0" y="0" height="100%" width="100%" style="stroke-width:5; fill:none" d="M0,0 M300,0 M630,630 M0,630"/>
+                </svg>
+                <img src="/na_pf/img/de/de_leflet_01_01.jpg" alt="leflet_img_01">
+              </div>              
               <div class="cover"><img src="/na_pf/img/de/de_leflet_01_02.jpg" alt="leflet_img_02"></div>
               <div class="cover"><img src="/na_pf/img/de/de_leflet_01_03.jpg" alt="leflet_img_03"></div>
               <div class="cover"><img src="/na_pf/img/de/de_leflet_01_04.jpg" alt="leflet_img_04"></div>
-              <div class="cover leaflet-2"><img src="/na_pf/img/de/de_leflet_01_05.jpg" alt="leflet_img_05"></div>
+              <div class="cover leaflet-2">
+                <svg>
+                  <rect x="0" y="0" height="100%" width="100%" style="stroke-width:5; fill:none" d="M0,0 M300,0 M630,630 M0,630"/>
+                </svg>
+                <img src="/na_pf/img/de/de_leflet_01_05.jpg" alt="leflet_img_05">
+              </div>
             </div> 
           </div>
 
-          <div id="myModal" class="modal leaflet-1">
+          <div id="myModal" class="modal leaflet-1" >
             <div class="modal-content">
               <span class="close">&times;</span>
               <div class="flipbook-viewport">
@@ -94,19 +104,25 @@
               <span class="close">&times;</span>
               <div class="flipbook-viewport">
                 <div class="container">
-                  <div class="flipbook">
-                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_01.jpg)"></div>
-                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_02.jpg)"></div>
-                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_03.jpg)"></div>
-                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_04.jpg)"></div>
-                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_05.jpg)"></div>
-                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_06.jpg)"></div>
-                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_07.jpg)"></div>
-                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_08.jpg)"></div>
-                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_09.jpg)"></div>
-                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_10.jpg)"></div>
-                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_11.jpg)"></div>
-                    <div style="background-image:url(/na_pf/img/de/de_leflet_B1_12.jpg)"></div>
+                  <div class="flipbook-2">
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_01.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_02.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_03.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_04.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_05.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_06.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_07.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_08.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_09.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_10.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_11.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_12.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_13.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_14.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_15.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_16.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_17.jpg)"></div>
+                    <div style="background-image:url(/na_pf/img/de/de_leflet_B2_18.jpg)"></div>
                   </div>
                 </div>
               </div>

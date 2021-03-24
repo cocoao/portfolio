@@ -43,6 +43,10 @@
       </a></li>
     </ul>
   </div>
+  <div class="pfBtns pfBtns">
+    <a href="https://github.com/cocoao/portfolio" target="_blank">Git</a>
+    <a href="/na_pf/img/portfolio_report.pdf" target="_blank">Report</a>
+  </div>
   <div class="copy">
     <p>COPYRIGHTⓒ 2021 BY NA</p>
   </div>

@@ -35,6 +35,9 @@
   .de_brochure .imgBox{height: 55vh;}
   .de_brochure .imgBox .img:hover{width: 90%;}
 
+  /* .flipbook-viewport .flipbook,.flipbook-viewport .flipbook-2{width:400px; height:420px;}
+  .flipbook-viewport .page{width:200px; height:420px;} */
+
   /* more page */
   .mo_imgView{width: 100%;}
   .moBtns{flex-wrap: wrap;}
@@ -62,8 +65,7 @@
   .txtBoxes .nav hr{border: 0; border-bottom: 1px solid #fff;}
   .btns{right: 10px; bottom: 30px;}
   .btns button{width: 30px; height: 30px; font-size: 28px;}
-
-  .navBox .pfBtns.pfBtns a{width: 60%;margin-bottom: 5px;}
+  .navBox .pfBtns.pfBtns a{width: 40%;}
   
   /* about page */
   .navBox{padding: 30px 15px;}
@@ -88,7 +90,7 @@
   /* design page */
   .design .desc{width:100%}
   .design section{height: 70vh; display: flex; flex-direction: column; justify-content: space-around;}
-  .imgBox{width: 100%;}
+  .imgBox{width: 100%!important;}
   .coverImgBox .cover{width: 30%;}
   .coverImgBox .cover:hover{width: 35%;}
 
@@ -99,6 +101,9 @@
 
   .viewMore{width: 20%;}
   .viewMore:hover{width: 25%;}
+
+  .modal{top: auto;}
+  .modal-content{width: 100%;margin: 15% auto 15% auto}
 
   /* more page */
   .moImgBox, .box-sizer{width: 50%;}
@@ -113,6 +118,8 @@
   .nav .hover{display: none;}
   .slides .slide span{padding: 20px; font-size: 28px;}
   .txtBoxes .txtBox{padding: 3px 20px;}
+  .navBox .pfBtns.pfBtns{justify-content: center; flex-wrap: wrap;}
+  .navBox .pfBtns.pfBtns a{width: 80%; margin-top: 5px;}
 
   /* about page */
   .navBox{padding: 30px 10px;}
@@ -183,6 +190,7 @@
   .pu_dbProject, .pu_apiProject, .pu_renProject, .pu_pieProject, .pu_planProject{padding: 25% 10%;}
 
   /* design page */
+  .design section{padding: 50px;}
   .pop .imgBox{height: 50vh;}
   .zoom{margin: 0;}
   .viewMore{top: 90%;}
@@ -194,6 +202,7 @@
   .de_brochure .imgBox .img:nth-child(4){bottom: 10%;}
   .viewMore{width: 30%;}
   .viewMore:hover{width: 35%;}
+  .close{margin-top: 30%;}
 
   /* more page */
   .moImgBox, .box-sizer{width: 100%;}
@@ -257,6 +266,7 @@
 
   .navBox .copy{display: none;}
   .copyOut{position: relative; bottom: 0; left: 0px; border-top: 1px solid #ddd; text-align: center; padding: 10px 0; width: 100%; display: block;}
+  .navBox .pfBtns.pfBtns{display: none;}
 
   .about section,.about section.ab_skill{margin: 100px 10% 0;}
   section{padding: 100px 30px 0 30px; }
@@ -308,4 +318,5 @@
   .moBtns button{padding: 0; font-size: 11px;}
   .lb-data .lb-close{width: 20px; height: 20px; background-size: contain;}
   .lb-nav a.lb-prev,.lb-nav a.lb-next{width: 25px;background-size: contain;}
+  .coverImgBox .cover svg{display: none;}
 }
