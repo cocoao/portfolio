@@ -90,7 +90,7 @@
   /* design page */
   .design .desc{width:100%}
   .design section{height: 70vh; display: flex; flex-direction: column; justify-content: space-around;}
-  .imgBox{width: 100%!important;}
+  .design .imgBox{width: 100%!important; height: auto;}
   .coverImgBox .cover{width: 30%;}
   .coverImgBox .cover:hover{width: 35%;}
 
@@ -194,8 +194,8 @@
   .pop .imgBox{height: 50vh;}
   .zoom{margin: 0;}
   .viewMore{top: 90%;}
-  .de_brochure .imgBox{width: 135%; margin-left: -45px;}
-  #deSlider ul li{width: 32vw;}
+  .de_brochure .imgBox{width: 135%; height: 40%;}
+  #deSlider ul li{width: 38vw;}
   .frame{width: 100%;}
   .slideBg{width: 90%;}
   .de_brochure .imgBox .img:nth-child(2){top: 10%;}

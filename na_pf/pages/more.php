@@ -468,7 +468,7 @@
               <img src="/na_pf/img/pub/P_burger_main.jpg" alt="work_pu">
               <div class="txtBox">
                 <h3>BURGER'S</h3>
-                <p>Planning project | 2021</p>
+                <p>UI/UX project | 2021</p>
                 <div class="useBox">
                   <div class="icon">
                   <img src="/na_pf/img/skill_html.png" alt="html">

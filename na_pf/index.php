@@ -90,7 +90,7 @@
             <h3>JOMALONE <p>LONDON</p></h3>
           </div>
           <div class="indexTxt" onclick="location.href='/na_pf/pages/publishing.php#5'">
-            <p>Web planning project</p>
+            <p>UI/UX project</p>
             <hr>
             <h3>BURGER'S</h3>
           </div>

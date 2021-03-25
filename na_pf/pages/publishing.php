@@ -240,7 +240,7 @@
             <div class="rightTxtBox">
               <div class="title">
                 <hr>
-                <p>Web planning project</p>
+                <p>UI/UX project</p>
                 <h3>BURGER'S</h3>
               </div>
               <div class="desc">
