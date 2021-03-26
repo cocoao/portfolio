@@ -12,6 +12,24 @@ $(function(){
     }
   });
 
+  const pathName = window.location.pathname;
+  if(pathName.includes("about")){
+    $('.nav ul li').removeClass('active');
+    $('.nav ul li').eq(1).addClass('active');
+  }
+  if(pathName.includes("publishing")){
+    $('.nav ul li').removeClass('active');
+    $('.nav ul li').eq(2).addClass('active');
+  }
+  if(pathName.includes("design")){
+    $('.nav ul li').removeClass('active');
+    $('.nav ul li').eq(3).addClass('active');
+  }
+  if(pathName.includes("more")){
+    $('.nav ul li').removeClass('active');
+    $('.nav ul li').eq(4).addClass('active');
+  }
+
   function moveSlide(){
     $(".slide:first-child").animate({'width':0},700);
     $(".slide:nth-child(2)").addClass('active');

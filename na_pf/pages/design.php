@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NA_HYEJEONG</title>
   <!-- favicon link -->
-  <link rel="icon" href="/na_pf/img/favicon_na.ico">
-  <link rel="apple-touch-icon" href="/na_pf/img/favicon_na.ico">
+  <link rel="icon" href="/na_pf/img/favicon_na.png">
+  <link rel="apple-touch-icon" href="/na_pf/img/favicon_na.png">
 
   <!-- font awesome font link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -60,7 +60,7 @@
             <div class="coverImgBox">
               <div class="cover leaflet-1">
                 <svg>
-                  <rect x="0" y="0" height="100%" width="100%" style="stroke-width:5; fill:none" d="M0,0 M300,0 M630,630 M0,630"/>
+                  <rect x="0" y="0" height="100%" width="100%" style="stroke-width:3; fill:none" d="M0,0 M300,0 M630,630 M0,630"/>
                 </svg>
                 <img src="/na_pf/img/de/de_leflet_01_01.jpg" alt="leflet_img_01">
               </div>              
@@ -69,7 +69,7 @@
               <div class="cover"><img src="/na_pf/img/de/de_leflet_01_04.jpg" alt="leflet_img_04"></div>
               <div class="cover leaflet-2">
                 <svg>
-                  <rect x="0" y="0" height="100%" width="100%" style="stroke-width:5; fill:none" d="M0,0 M300,0 M630,630 M0,630"/>
+                  <rect x="0" y="0" height="100%" width="100%" style="stroke-width:3; fill:none" d="M0,0 M300,0 M630,630 M0,630"/>
                 </svg>
                 <img src="/na_pf/img/de/de_leflet_01_05.jpg" alt="leflet_img_05">
               </div>

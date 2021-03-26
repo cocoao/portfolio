@@ -23,7 +23,7 @@
   <!-- jquery link -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="/na_pf/js/custom.js"></script>
-  <script src="/na_pf/js/pages.js"></script>
+  <script src="/na_pf/js/pages_mo.js"></script>
 
   <!-- plugin link -->
   <script src="/na_pf/plugin/lightbox.js"></script>
@@ -54,7 +54,7 @@
           <div class="box-sizer"></div>
           <div class="moImgBox edit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/E_01_01.jpg" data-lightbox="E_01" data-title="SAMSUNG LIFE INSURANCE | Products Leaflet | 2020">View</a>
                 <a href="/na_pf/img/work/E_01_02.jpg" data-lightbox="E_01" data-title="SAMSUNG LIFE INSURANCE | Products Leaflet | 2020"></a>
                 <a href="/na_pf/img/work/E_01_03.jpg" data-lightbox="E_01" data-title="SAMSUNG LIFE INSURANCE | Products Leaflet | 2020"></a>
@@ -79,7 +79,7 @@
           </div>
           <div class="moImgBox pub webedit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/pub/P_space_main.png" data-lightbox="P_01" data-title="SPACE | DB project_Interior site | Main page">View</a>
                 <a href="/na_pf/img/pub/P_space_liv.png" data-lightbox="P_01" data-title="SPACE | DB project_Interior site | Works page"></a>
                 <a href="/na_pf/img/pub/P_space_qna.png" data-lightbox="P_01" data-title="SPACE | DB project_Interior site | Q&A page"></a>
@@ -115,7 +115,7 @@
           </div>
           <div class="moImgBox edit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/E_02_01.jpg" data-lightbox="E_02" data-title="SAMSUNG LIFE INSURANCE | Monthly DM Leaflet | 2019">View</a>
                 <a href="/na_pf/img/work/E_02_02.jpg" data-lightbox="E_02" data-title="SAMSUNG LIFE INSURANCE | Monthly DM Leaflet | 2019"></a>
               </div>
@@ -139,7 +139,7 @@
           </div>
           <div class="moImgBox pub webedit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/pub/P_cinema_main.png" data-lightbox="P_02" data-title="CINEMA NOW. | API project_Movie site | Main page">View</a>
                 <a href="/na_pf/img/pub/P_cinema_search.png" data-lightbox="P_02" data-title="CINEMA NOW. | API project_Movie site | Search page"></a>
                 <a href="/na_pf/img/pub/P_cinema_new.png" data-lightbox="P_02" data-title="CINEMA NOW. | API project_Movie site | New tab"></a>
@@ -173,7 +173,7 @@
           </div>
           <div class="moImgBox etc">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/ETC_01_01.jpg" data-lightbox="ETC_01" data-title="THE ROUND. THE ONE | Namecard & Menu | 2020">View</a>
                 <a href="/na_pf/img/work/ETC_01_02.jpg" data-lightbox="ETC_01" data-title="THE ROUND. THE ONE | Namecard & Menu | 2020"></a>
                 <a href="/na_pf/img/work/ETC_01_03.jpg" data-lightbox="ETC_01" data-title="THE ROUND. THE ONE | Namecard & Menu | 2020"></a>
@@ -192,7 +192,7 @@
           </div>
           <div class="moImgBox webedit edit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/WE_01_01.jpg" data-lightbox="WE_01" data-title="SAMSUNG LIFE INSURANCE | Millennial Card News | 2020">View</a>
                 <a href="/na_pf/img/work/WE_01_02.jpg" data-lightbox="WE_01" data-title="SAMSUNG LIFE INSURANCE | Millennial Card News | 2020"></a>
               </div>
@@ -213,7 +213,7 @@
           </div>
           <div class="moImgBox edit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/E_05_01.jpg" data-lightbox="E_05" data-title="K FASHION AUDITION | Brochure | 2019">View</a>
               </div>
               <img src="/na_pf/img/work/E_05_01.jpg" alt="work_edit">
@@ -233,7 +233,7 @@
           </div>
           <div class="moImgBox pub webedit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/pub/P_jomalone_main.png" data-lightbox="P_03" data-title="JOMALONE LONDON | Renewal project | Main page">View</a>
                 <a href="/na_pf/img/pub/P_jomalone_frangrance.png" data-lightbox="P_03" data-title="JOMALONE LONDON | Renewal project | frangrance page"></a>
                 <a href="/na_pf/img/pub/P_jomalone_nav.png" data-lightbox="P_03" data-title="JOMALONE LONDON | Renewal project | Main navigation"></a>
@@ -268,7 +268,7 @@
           </div>
           <div class="moImgBox ad">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/A_02_01.jpg" data-lightbox="A_02" data-title="WATSONS | POP advertisement | 2016">View</a>
                 <a href="/na_pf/img/work/A_02_02.jpg" data-lightbox="A_02" data-title="WATSONS | POP advertisement | 2016"></a>
               </div>
@@ -286,7 +286,7 @@
           </div>
           <div class="moImgBox edit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/E_03_01.jpg" data-lightbox="E_03" data-title="SAMSUNG LIFE INSURANCE | Millennial magazine | 2019">View</a>
                 <a href="/na_pf/img/work/E_03_02.jpg" data-lightbox="E_03" data-title="SAMSUNG LIFE INSURANCE | Millennial magazine | 2019"></a>
               </div>
@@ -307,7 +307,7 @@
           </div>
           <div class="moImgBox etc">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/ETC_02_01.jpg" data-lightbox="ETC_02" data-title="Andus chain | Logo | 2018">View</a>
               </div>
               <img src="/na_pf/img/work/ETC_02_01.jpg" alt="work_etc">
@@ -324,7 +324,7 @@
           </div>
           <div class="moImgBox webedit edit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/WE_02_01.jpg" data-lightbox="WE_02" data-title="MY MANAGER | Card News | 2020">View</a>
               </div>
               <img src="/na_pf/img/work/WE_02_01.jpg" alt="work_web_edit">
@@ -344,7 +344,7 @@
           </div>
           <div class="moImgBox edit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/E_04_01.jpg" data-lightbox="E_04" data-title="SAMSUNG LIFE INSURANCE | Monthly DM Leaflet | 2020">View</a>
                 <a href="/na_pf/img/work/E_04_02.jpg" data-lightbox="E_04" data-title="SAMSUNG LIFE INSURANCE | Monthly DM Leaflet | 2020"></a>
               </div>
@@ -368,7 +368,7 @@
           </div>
           <div class="moImgBox pub webedit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/pub/P_schedule_main.png" data-lightbox="P_04" data-title="MY SCHEDULE | Pie chart project | Main page">View</a>
                 <a href="/na_pf/img/pub/P_schedule_check.png" data-lightbox="P_04" data-title="MY SCHEDULE | Pie chart project | Check page"></a>
                 <a href="/na_pf/img/pub/P_schedule_write.png" data-lightbox="P_04" data-title="MY SCHEDULE | Pie chart project | Write page"></a>
@@ -396,7 +396,7 @@
           </div>
           <div class="moImgBox edit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/E_07_01.jpg" data-lightbox="E_07" data-title="SAMSUNG LIFE INSURANCE | Heath lounge catalog | 2018">View</a>
               </div>
               <img src="/na_pf/img/work/E_07_01.jpg" alt="work_edit">
@@ -419,7 +419,7 @@
           </div>
           <div class="moImgBox ad">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/A_03_01.jpg" data-lightbox="A_03" data-title="NONGHYUP LIFE INSURANCE | Poster | 2017">View</a>
               </div>
               <img src="/na_pf/img/work/A_03_01.jpg" alt="work_ad">
@@ -442,7 +442,7 @@
           </div>
           <div class="moImgBox etc">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/ETC_03_01.jpg" data-lightbox="ETC_03" data-title="SUPER MOON DESIGN | Logo | 2020">View</a>
               </div>
               <img src="/na_pf/img/work/ETC_03_01.jpg" alt="work_etc">
@@ -459,7 +459,7 @@
           </div>
           <div class="moImgBox pub webedit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/pub/P_burger_main.jpg" data-lightbox="P_05" data-title="BURGER'S | Planning project_burger brand | Main page">View</a>
                 <a href="/na_pf/img/pub/P_burger_is.jpg" data-lightbox="P_05" data-title="BURGER'S | Planning project_burger brand | Info page"></a>
                 <a href="/na_pf/img/pub/P_burger_how.jpg" data-lightbox="P_05" data-title="BURGER'S | Planning project_burger brand | How to page"></a>
@@ -497,7 +497,7 @@
           </div>
           <div class="moImgBox edit">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/E_06_01.jpg" data-lightbox="E_06" data-title="MAGIC | Catalog | 2015">View</a>
               </div>
               <img src="/na_pf/img/work/E_06_01.jpg" alt="work_edit">
@@ -520,7 +520,7 @@
           </div>
           <div class="moImgBox ad">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/A_01_01.jpg" data-lightbox="A_01" data-title="MAGIC | POP advertisement | 2015">View</a>
               </div>
               <img src="/na_pf/img/work/A_01_01.jpg" alt="work_ad">
@@ -540,7 +540,7 @@
           </div>
           <div class="moImgBox etc">
             <div class="moCon">
-              <div class="hover">
+              <div class="hoverCon">
                 <a href="/na_pf/img/work/ETC_04_01.jpg" data-lightbox="ETC_04" data-title="YUSEONG SPA.GYM | Logo | 2018">View</a>
                 <a href="/na_pf/img/work/ETC_04_02.jpg" data-lightbox="ETC_04" data-title="YUSEONG SPA.GYM | Logo | 2018"></a>
               </div>
