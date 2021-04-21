@@ -17,7 +17,7 @@
 .slides .slide:nth-child(1) i{display: block;}
 
 .btns{position: absolute; bottom: 40px; right: 60px;}
-.btns button{outline: 0; _padding: 10px; border: 0px solid #ddd; color: #ddd; font-size: 35px; transform: all 0.4s; width: 40px; height: 40px; margin: 5px;}
+.btns button{outline: 0; _padding: 10px; border: 0px solid #ddd; color: #ddd; font-size: 35px; transition: all 0.4s; width: 40px; height: 40px; margin: 5px;}
 .btns button:hover{_background: #ddd; color: #aaa;}
 
 /* textbox style */

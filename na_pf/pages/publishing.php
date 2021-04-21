@@ -31,6 +31,7 @@
 <body>
   <?php include $_SERVER['DOCUMENT_ROOT'].'/na_pf/include/header.php'?>
   <div id="fullpage">
+    <!-- db project section -->
     <div class="dbBg section">
       <div class="contents-wrap clear puPage">
         <section class="pu_dbProject">
@@ -81,8 +82,9 @@
             </div>
         </section>
       </div>
-    </div> <!-- end of dbproject -->
+    </div>
 
+    <!-- api project section -->
     <div class="apiBg section">
       <div class="contents-wrap clear puPage">
         <section class="pu_apiProject">
@@ -129,8 +131,9 @@
             </div>
         </section>
       </div>
-    </div> <!-- end of apiproject -->
+    </div>
 
+    <!-- renewal project section -->
     <div class="renBg section">
       <div class="contents-wrap clear puPage">
         <section class="pu_renProject">
@@ -155,6 +158,9 @@
                   <div class="icon">
                   <img src="/na_pf/img/skill_php.png" alt="php">
                   </div>
+                  <div class="icon">
+                  <img src="/na_pf/img/skill_sql.png" alt="mysql">
+                  </div>
                   <p class="useLine"></p>
                   <div class="icon">
                   <img src="/na_pf/img/skill_ps.png" alt="photoshop">
@@ -177,8 +183,9 @@
             </div>
         </section>
       </div>
-    </div> <!-- end of renewal project -->
+    </div>
 
+    <!-- piechart project section -->
     <div class="pieBg section">
       <div class="contents-wrap clear puPage">
         <section class="pu_pieProject">
@@ -233,7 +240,9 @@
             </div>
         </section>
       </div>
-    </div> <!-- end of pieproject -->
+    </div>
+
+    <!-- ui/ux project section -->
     <div class="planBg section">
     <div class="contents-wrap clear puPage">
         <section class="pu_planProject">
@@ -270,8 +279,8 @@
                   </div>
                 </div>
                 <div class="pfBtns">
-                  <!-- <a href="#">Link</a>
-                  <a href="#">Git</a> -->
+                  <a href="http://cocoao.dothome.co.kr/burgers" target="_blank">Link</a>
+                  <a href="https://github.com/cocoao/UI-UX_Burgers.git" target="_blank">Git</a>
                   <a href="/na_pf/img/plan_burgers_report.pdf" target="_blank">Report</a>
                 </div>
               </div>
@@ -286,12 +295,10 @@
             </div>
         </section>
       </div>
-    </div> <!-- end of webplanproject -->
-
+    </div>
   </div>
   <div class="copyOut">
     <p>COPYRIGHTⓒ 2021 BY NA</p>
   </div>
-
 </body>
 </html>

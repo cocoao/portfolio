@@ -33,6 +33,7 @@
   <div class="wrap">
   <?php include $_SERVER['DOCUMENT_ROOT'].'/na_pf/include/header.php'?>
     <div class="contents-wrap clear about">
+      <!-- intro section -->
       <section class="ab_intro">
         <div class="title">
           <hr>
@@ -52,7 +53,8 @@
             </span>
           </div>
         </div>
-      </section> <!-- end of intro section -->
+      </section>
+      <!-- history section -->
       <section class="ab_history">
         <div class="title">
           <hr>
@@ -109,7 +111,8 @@
             </div>
           </div>
         </div>
-      </section> <!-- end of history section -->
+      </section>
+      <!-- skill section -->
       <section class="ab_skill">
         <div class="title">
           <hr>
@@ -122,7 +125,7 @@
           <div class="roundBox htmlSkill">
             <div class="hover">
               <p class="percentBg"></p>
-              <p class="percentTxt">90%</p>
+              <p class="percentTxt">80%</p>
             </div>
             <div class="icon">
               <img src="/na_pf/img/skill_html.png" alt="html">
@@ -132,7 +135,7 @@
           <div class="roundBox cssSkill">
             <div class="hover">
               <p class="percentBg"></p>
-              <p class="percentTxt">90%</p>
+              <p class="percentTxt">80%</p>
             </div>
             <div class="icon">
             <img src="/na_pf/img/skill_css.png" alt="css">
@@ -142,7 +145,7 @@
           <div class="roundBox jsSkill">
             <div class="hover">
               <p class="percentBg"></p>
-              <p class="percentTxt">80%</p>
+              <p class="percentTxt">70%</p>
             </div>
             <div class="icon">
             <img src="/na_pf/img/skill_js.png" alt="jquery">
@@ -152,7 +155,7 @@
           <div class="roundBox phpSkill">
             <div class="hover">
               <p class="percentBg"></p>
-              <p class="percentTxt">90%</p>
+              <p class="percentTxt">80%</p>
             </div>
             <div class="icon">
             <img src="/na_pf/img/skill_php.png" alt="php">
@@ -162,7 +165,7 @@
           <div class="roundBox sqlSkill">
             <div class="hover">
               <p class="percentBg"></p>
-              <p class="percentTxt">80%</p>
+              <p class="percentTxt">70%</p>
             </div>
             <div class="icon">
             <img src="/na_pf/img/skill_sql.png" alt="mysql">
@@ -205,8 +208,8 @@
           </div>
         </div>
         </div>
-      </section> <!-- end of skill section -->
-
+      </section> 
+      <!-- contact section -->
       <section class="ab_contact" data-aos="fade-up">
         <div class="contactBox">
           <div class="title">

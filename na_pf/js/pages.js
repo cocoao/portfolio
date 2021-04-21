@@ -1,3 +1,4 @@
+// scrolldown when click content of main page
 $(function(){
   var loca = $(location).attr('href').split('#')[1];
   var clickTop = $('.' + loca).offset().top;
@@ -7,6 +8,7 @@ $(function(){
 
 // about page
 $(function(){
+  // img & txt box size
   var winWidth = $(window).width();
   $('.ab_content_in .text').css({'height':winWidth * 0.22})
   $('.ab_content_in .img img').css({'top':winWidth * 0.22});
@@ -17,6 +19,7 @@ $(function(){
     $('.ab_content_in .img img').css({'top':winWidth * 0.22});
   });
 
+  // skill fill graph
   $(window).scroll(function(){
     var skillWinWidth = $(window).width();
     if($('.skillSection').hasClass('aos-animate')){
@@ -30,6 +33,7 @@ $(function(){
     }
   });
   
+  // aos plugin
   AOS.init({
     offset: 200,
     duration: 600,
@@ -53,6 +57,7 @@ $(function(){
 
 
 // publishing page
+// fullpage plugin
 $(document).ready(function(){
   $('#fullpage').fullpage({
     autoScrolling:true,
@@ -61,7 +66,7 @@ $(document).ready(function(){
   });
 });
 
-
+// scrolltop when mouseover(right)
 $(function(){
   $('.rightImgBox').on('mouseover',function(){
     const imgHeight = $(this).find(".imgBox img").height();
@@ -73,6 +78,7 @@ $(function(){
   });
 });
 
+// scrolltop when mouseover mobile
 $(function(){
   $('.leftImgM').on('mouseover',function(){
     const imgHeight = $(this).find(".imgBox img").height();
@@ -84,7 +90,7 @@ $(function(){
   });
 });
 
-
+// scrolltop when mouseover(left)
 $(function(){
   $('.leftImgBox.plan').on('mouseover',function(){
     const imgHeight = $(this).find(".imgBox img").height();

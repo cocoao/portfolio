@@ -1,4 +1,4 @@
-// more page
+// filter effect
 $(function(){
 
   $(document).ready(function() { 

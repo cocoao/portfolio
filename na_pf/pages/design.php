@@ -32,6 +32,7 @@
 <body>
   <?php include $_SERVER['DOCUMENT_ROOT'].'/na_pf/include/header.php'?>
   <div id="fullpage" class="design">
+    <!-- leaflet section -->
     <div class="leaflet section" data-anchor="1st">
       <div class="contents-wrap clear dePage">
         <section class="de_leaflet clear">
@@ -75,7 +76,7 @@
               </div>
             </div> 
           </div>
-
+          <!-- leaflet modal -->
           <div id="myModal" class="modal leaflet-1" >
             <div class="modal-content">
               <span class="close">&times;</span>
@@ -130,8 +131,8 @@
           </div>
         </section>
       </div>
-    </div> <!-- end of leaflet -->
-
+    </div>
+    <!-- cardnews section -->
     <div class="cardnews section" data-anchor="2st">
       <div class="contents-wrap clear dePage">
         <section class="de_cardnews clear">
@@ -203,8 +204,9 @@
           </div>
         </section>
       </div>
-    </div> <!-- end of cardnews -->
+    </div>
 
+    <!-- brochure section -->
     <div class="brochure section" data-anchor="3st">
       <div class="contents-wrap clear dePage">
         <section class="de_brochure clear">
@@ -240,8 +242,9 @@
           </div>
         </section>
       </div>
-    </div> <!-- end of brochure -->
+    </div>
 
+    <!-- pop section -->
     <div class="pop section" data-anchor="4st">
       <div class="contents-wrap clear dePage">
         <section class="de_pop clear">
@@ -267,7 +270,7 @@
           </div>
         </section>
       </div>
-    </div> <!-- end of brochure -->
+    </div>
 </div>
   <button class="viewMore" onclick="location.href='/na_pf/pages/more.php'">View More
     <i class="fa fa-angle-double-right"></i>

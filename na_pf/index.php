@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- seo meta tag -->
+  <meta name="title" content="나혜정 포트폴리오">
+  <meta name="keywords" content="포트폴리오, 웹퍼블리싱, 디자인">
+  <meta name="description" content="웹퍼블리싱과 디자인 작업물을 담은 포트폴리오 사이트입니다.">
+  <meta property="og:description" content="나혜정 포트폴리오 사이트입니다.">
   <title>NA_HYEJEONG</title>
 
   <!-- favicon link -->
@@ -24,31 +30,33 @@
 </head>
 <body>
   <div class="main-wrap">
-
-  <div class="slides" id="slide">
-    <div class="slide-box">
-      <div class="slide main-na active" value="main-na">
-        <img src="/na_pf/img/main_na.jpg" onclick="location.href='/na_pf/pages/about.php'">
-        <i class="fa fa-angle-double-right"></i>
-        <span>N<p>A HYEJEONG<p></span>
+    <!-- main slide section -->
+    <div class="slides" id="slide">
+      <div class="slide-box">
+        <div class="slide main-na active" value="main-na">
+          <img src="/na_pf/img/main_na.jpg" onclick="location.href='/na_pf/pages/about.php'" alt="main_about_img">
+          <i class="fa fa-angle-double-right"></i>
+          <span>N<p>A HYEJEONG</p></span>
+        </div>
+        <div class="slide main-pu" value="main-pu">
+          <img src="/na_pf/img/main_pu.jpg" onclick="location.href='/na_pf/pages/publishing.php'"
+            alt="main_publishing_img">
+          <i class="fa fa-angle-double-right"></i>
+          <span>P<p>UBLISHING</p></span>
+        </div>
+        <div class="slide main-de" value="main-de">
+          <img src="/na_pf/img/main_de.jpg" onclick="location.href='/na_pf/pages/design.php'" alt="main_design_img">
+          <i class="fa fa-angle-double-right"></i>
+          <span>D<p>ESIGN</p></span>
+        </div>
+        <div class="slide main-mo" value="main-mo">
+          <img src="/na_pf/img/main_mo.jpg" onclick="location.href='/na_pf/pages/more.php'" alt="main_moreWorks_img">
+          <i class="fa fa-angle-double-right"></i>
+          <span>M<p>ORE WORKS</p></span>
+        </div>
       </div>
-      <div class="slide main-pu" value="main-pu">
-        <img src="/na_pf/img/main_pu.jpg" onclick="location.href='/na_pf/pages/publishing.php'">
-        <i class="fa fa-angle-double-right"></i>
-        <span>P<p>UBLISHING<p></span>
-      </div>
-      <div class="slide main-de" value="main-de" onclick="location.href='/na_pf/pages/design.php'">
-        <img src="/na_pf/img/main_de.jpg">
-        <i class="fa fa-angle-double-right"></i>
-        <span>D<p>ESIGN<p></span>
-      </div>
-      <div class="slide main-mo" value="main-mo" >
-        <img src="/na_pf/img/main_mo.jpg" onclick="location.href='/na_pf/pages/more.php'">
-      <i class="fa fa-angle-double-right"></i>
-      <span>M<p>ORE WORKS<p></span>
     </div>
-    </div>
-  </div>
+    <!-- main slide contents section -->
     <div class="txtBoxes">
       <div class="txtBox">
         <div class="contents clear main-na">
@@ -151,6 +159,7 @@
         </a>
         <hr>
       </div>
+      <!-- main navigation section -->
       <div class="nav">
         <div class="mobileNav">
           <i class="fa fa-bars"></i>

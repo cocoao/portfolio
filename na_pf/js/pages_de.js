@@ -1,5 +1,6 @@
 $(function(){
 
+  // leflet open book
   $(window).resize(function(){
     const windWid = $(window).width();
     if(windWid > 1200){
@@ -86,7 +87,7 @@ $(function(){
     complete: loadApp
   });
 
-
+  // cardnews slider
   $(window).resize(function(){
     var frameHeight = $('#deSlider ul li').width();
     $('#deSlider ul li').css({height:frameHeight});
@@ -100,7 +101,6 @@ $(function(){
     $('#deSlider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
   });
 
-  // cardnews slider
   var frameHeight = $('#deSlider ul li').width();
   $('#deSlider ul li').css({height:frameHeight});
 
@@ -141,6 +141,7 @@ $(function(){
     });
 });
 
+  // fullpage
   $(document).ready(function(){
     $('#fullpage').fullpage({
       autoScrolling:true,

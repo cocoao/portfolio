@@ -1,5 +1,6 @@
 $(function(){
  
+  // mobile navigation
   $(".mobileNav").click(function(){
     $(this).toggleClass("on");
     if($(this).hasClass("on")){
@@ -12,6 +13,7 @@ $(function(){
     }
   });
 
+  // navigation mark
   const pathName = window.location.pathname;
   if(pathName.includes("about")){
     $('.nav ul li').removeClass('active');
@@ -30,6 +32,7 @@ $(function(){
     $('.nav ul li').eq(4).addClass('active');
   }
 
+  // main slider
   function moveSlide(){
     $(".slide:first-child").animate({'width':0},700);
     $(".slide:nth-child(2)").addClass('active');
@@ -37,7 +40,6 @@ $(function(){
     $(".slide:nth-child(2)").animate({'width': '60%', 'left':0}, 500);
     $(".slide:nth-child(3)").animate({'width': '20%', 'left':'60%'}, 500);
     $(".slide:nth-child(4)").animate({'width': '10%', 'left':'80%'}, 500);
-    // $('.slides .slide:last-child').animate({'animation':'slideLeft 0.1s 1'})
 
     setTimeout(function(){
       $(".slide:first-child").clone().appendTo('.slide-box');
@@ -84,6 +86,7 @@ $(function(){
     }, 500)
   }
 
+  // main slider mobile
   winWidth = $(window).width();
   if(winWidth <= 480){
     function moveSlide(){
