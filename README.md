@@ -24,6 +24,7 @@
 #### 사용 플러그인
 > AOS | About 페이지 스크롤 시 애니메이션 효과<br>
 > Fullpage | Publishing / Design 페이지에 사용하여 각각의 작업물이 잘 보이도록 구성<br>
+> Turn | Design 페이지 작업물에 적용하여 리플렛을 넘겨 보는 효과를 줌<br>
 > Modernizr | Design 페이지 작업물에 zoom 효과로 포인트<br>
 > Masnry | Works 페이지에 작업물들을 정렬<br>
 > Isotope filtering | Works 페이지에 작업물들을 분류하여 볼 수 있도록 구성<br>
